@@ -1,0 +1,863 @@
+<!DOCTYPE html>
+<html lang="en" style="scroll-behavior: smooth;">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Knowledge, Practices, and Challenges of Infection Control Among Nurses in Tertiary Healthcare Settings
+    </title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,400&family=Source+Sans+3:wght@300;400;600;700&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Merriweather', Georgia, serif;
+            font-size: 12pt;
+            line-height: 1.8;
+            color: #1a1a1a;
+            background: #f5f5f0;
+        }
+
+        .paper {
+            max-width: 850px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 60px 70px;
+            box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+        }
+
+        /* ── Title Page ── */
+        .title-page {
+            text-align: center;
+            padding: 40px 0 30px;
+            border-bottom: 3px double #333;
+            margin-bottom: 30px;
+        }
+
+        .title-page h1 {
+            font-size: 20pt;
+            font-weight: 700;
+            line-height: 1.3;
+            color: #1a1a1a;
+            margin-bottom: 25px;
+        }
+
+        .authors {
+            font-family: 'Source Sans 3', sans-serif;
+            font-size: 11pt;
+            color: #444;
+            margin-bottom: 8px;
+        }
+
+        .affiliation {
+            font-family: 'Source Sans 3', sans-serif;
+            font-size: 10pt;
+            color: #666;
+            font-style: italic;
+            margin-bottom: 6px;
+        }
+
+        .correspondence {
+            font-family: 'Source Sans 3', sans-serif;
+            font-size: 9.5pt;
+            color: #666;
+            margin-top: 12px;
+        }
+
+        /* ── Abstract ── */
+        .abstract {
+            background: #f9f9f6;
+            border-left: 4px solid #2E86AB;
+            padding: 20px 25px;
+            margin: 25px 0;
+        }
+
+        .abstract h2 {
+            font-size: 13pt;
+            font-weight: 700;
+            color: #2E86AB;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .abstract p {
+            font-size: 10.5pt;
+            line-height: 1.7;
+            text-align: justify;
+        }
+
+        .keywords {
+            font-family: 'Source Sans 3', sans-serif;
+            font-size: 10pt;
+            margin-top: 12px;
+            color: #444;
+        }
+
+        .keywords strong {
+            color: #2E86AB;
+        }
+
+        /* ── Headings ── */
+        h2 {
+            font-size: 14pt;
+            font-weight: 700;
+            color: #1a1a1a;
+            margin-top: 30px;
+            margin-bottom: 12px;
+            padding-bottom: 6px;
+            border-bottom: 1.5px solid #ddd;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        h3 {
+            font-size: 12pt;
+            font-weight: 700;
+            color: #333;
+            margin-top: 20px;
+            margin-bottom: 8px;
+        }
+
+        /* ── Body Text ── */
+        p {
+            text-align: justify;
+            margin-bottom: 12px;
+            font-size: 11pt;
+        }
+
+        sup {
+            font-size: 8pt;
+            color: #2E86AB;
+            font-weight: 600;
+        }
+
+        /* ── Tables ── */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 18px 0;
+            font-family: 'Source Sans 3', sans-serif;
+            font-size: 10pt;
+        }
+
+        table caption {
+            font-weight: 700;
+            font-size: 10.5pt;
+            margin-bottom: 8px;
+            text-align: left;
+            color: #333;
+        }
+
+        thead th {
+            background: #2E86AB;
+            color: #fff;
+            padding: 8px 10px;
+            text-align: left;
+            font-weight: 600;
+            font-size: 9.5pt;
+        }
+
+        tbody td {
+            padding: 7px 10px;
+            border-bottom: 1px solid #e8e8e8;
+        }
+
+        tbody tr:nth-child(even) {
+            background: #f9f9f6;
+        }
+
+        tbody tr:hover {
+            background: #eef5fa;
+        }
+
+        .table-note {
+            font-size: 9pt;
+            color: #666;
+            font-style: italic;
+            margin-top: 4px;
+        }
+
+        /* ── Figures ── */
+        .figure {
+            text-align: center;
+            margin: 25px 0;
+            page-break-inside: avoid;
+        }
+
+        .figure img {
+            max-width: 100%;
+            height: auto;
+            border: 1px solid #e0e0e0;
+            border-radius: 4px;
+        }
+
+        .figure figcaption {
+            font-family: 'Source Sans 3', sans-serif;
+            font-size: 10pt;
+            color: #555;
+            margin-top: 8px;
+            font-style: italic;
+        }
+
+        /* ── Lists ── */
+        ol,
+        ul {
+            margin: 10px 0 10px 25px;
+            font-size: 11pt;
+        }
+
+        li {
+            margin-bottom: 6px;
+        }
+
+        /* ── References ── */
+        .references {
+            font-family: 'Source Sans 3', sans-serif;
+            font-size: 9.5pt;
+            line-height: 1.6;
+        }
+
+        .references ol {
+            margin-left: 20px;
+        }
+
+        .references li {
+            margin-bottom: 8px;
+            text-align: justify;
+        }
+
+        /* ── Metadata Bar ── */
+        .meta-bar {
+            display: flex;
+            justify-content: space-between;
+            font-family: 'Source Sans 3', sans-serif;
+            font-size: 9pt;
+            color: #888;
+            border-top: 1px solid #ddd;
+            padding-top: 15px;
+            margin-top: 40px;
+        }
+
+        /* ── Highlight Box ── */
+        .highlight-box {
+            background: linear-gradient(135deg, #f0f7fa, #e8f4f8);
+            border: 1px solid #b8d8e8;
+            border-radius: 6px;
+            padding: 15px 20px;
+            margin: 18px 0;
+        }
+
+        .highlight-box h4 {
+            color: #2E86AB;
+            font-size: 10.5pt;
+            margin-bottom: 6px;
+        }
+
+        .highlight-box ul {
+            font-size: 10pt;
+            margin-left: 15px;
+        }
+
+
+
+        /* ── Table of Contents ── */
+        .toc {
+            background: #f9f9f6;
+            border: 1px solid #e0e0e0;
+            border-radius: 6px;
+            padding: 20px 30px;
+            margin: 25px 0;
+            page-break-after: always;
+        }
+        .toc h2 {
+            font-size: 14pt;
+            color: #1a1a1a;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #2E86AB;
+            padding-bottom: 8px;
+            text-align: center;
+        }
+        .toc ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        .toc > ul > li {
+            margin-bottom: 8px;
+            font-family: 'Source Sans 3', sans-serif;
+            font-size: 11pt;
+        }
+        .toc > ul > li > a {
+            color: #1a1a1a;
+            text-decoration: none;
+            font-weight: 600;
+            display: block;
+            padding: 4px 0;
+            border-bottom: 1px dotted #ccc;
+        }
+        .toc > ul > li > a:hover {
+            color: #2E86AB;
+        }
+        .toc ul ul {
+            margin-left: 25px;
+            margin-top: 4px;
+        }
+        .toc ul ul li {
+            margin-bottom: 3px;
+            font-size: 10pt;
+            font-weight: 400;
+        }
+        .toc ul ul li a {
+            color: #555;
+            text-decoration: none;
+        }
+        .toc ul ul li a:hover {
+            color: #2E86AB;
+            text-decoration: underline;
+        }
+        /* ── Citation Links ── */
+        sup a {
+            color: #2E86AB;
+            text-decoration: none;
+            font-weight: 600;
+            cursor: pointer;
+            transition: color 0.2s;
+        }
+
+        sup a:hover {
+            color: #1a5c7a;
+            text-decoration: underline;
+        }
+
+        .references li:target {
+            background: #fff3cd;
+            padding: 4px 8px;
+            border-radius: 4px;
+            transition: background 0.3s;
+        }
+
+        .ref-back {
+            color: #2E86AB;
+            text-decoration: none;
+            font-size: 10pt;
+            margin-left: 4px;
+        }
+
+        .ref-back:hover {
+            text-decoration: underline;
+        }
+
+        /* ── Additional Sections ── */
+        .additional-sections {
+            margin-top: 30px;
+        }
+
+        .additional-sections h3 {
+            font-size: 11pt;
+            color: #333;
+            margin-top: 18px;
+            margin-bottom: 6px;
+        }
+
+        .additional-sections p {
+            font-size: 10.5pt;
+        }
+
+        /* ── Print ── */
+        @media print {
+            body {
+                background: white;
+                font-size: 11pt;
+            }
+
+            .paper {
+                box-shadow: none;
+                padding: 20px 40px;
+                max-width: 100%;
+            }
+
+            /* Prevent page breaks inside these elements */
+            .figure,
+            table,
+            thead,
+            tbody tr,
+            .abstract,
+            .highlight-box,
+            .additional-sections h3,
+            .additional-sections p,
+            blockquote {
+                page-break-inside: avoid;
+                break-inside: avoid;
+            }
+
+            /* Keep headings attached to the content after them */
+            h2,
+            h3,
+            h4 {
+                page-break-after: avoid;
+                break-after: avoid;
+                page-break-inside: avoid;
+                break-inside: avoid;
+            }
+
+            /* Force page break before major sections */
+            h2 {
+                page-break-before: always;
+                break-before: always;
+            }
+
+            /* Don't break before the very first h2 (Abstract) */
+            .abstract h2 {
+                page-break-before: avoid;
+                break-before: avoid;
+            }
+
+            /* Keep paragraphs together (orphans/widows) */
+            p {
+                orphans: 3;
+                widows: 3;
+            }
+
+            /* Keep table caption with its table */
+            caption {
+                page-break-after: avoid;
+                break-after: avoid;
+            }
+
+            /* Keep figcaption with its figure */
+            figcaption {
+                page-break-before: avoid;
+                break-before: avoid;
+            }
+
+            /* Title page never breaks */
+            .title-page {
+                page-break-inside: avoid;
+                break-inside: avoid;
+                page-break-after: always;
+                break-after: always;
+            }
+
+            /* References list items stay together */
+            .references li {
+                page-break-inside: avoid;
+                break-inside: avoid;
+            }
+
+            /* Hide hover/interactive styles */
+            sup a {
+                color: #2E86AB !important;
+                text-decoration: none !important;
+            }
+
+            /* Make images fit on page */
+            .figure img {
+                max-height: 45vh;
+                width: auto;
+                max-width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="paper">
+
+        <!-- ══════════════════════════════════════════════ -->
+        <!--                 TITLE PAGE                    -->
+        <!-- ══════════════════════════════════════════════ -->
+        <div class="title-page">
+            <h1>Knowledge, Practices, and Challenges of Infection Prevention and Control Among Nurses in Tertiary
+                Healthcare Settings</h1>
+
+            <p class="authors">
+                <strong>Tasleem<sup>1*</sup>, Gobind Rai<sup>1</sup></strong>
+            </p>
+
+            <p class="affiliation">
+                <sup>1</sup> Liaquat College of Nursing (Female), LUMHS, Jamshoro, Sindh, Pakistan
+            </p>
+            <p class="affiliation">
+                <sup>*</sup> Corresponding Author
+            </p>
+
+            <p class="correspondence">
+                <strong>Corresponding Author:</strong> Tasleem<br>
+                Liaquat College of Nursing (Female), LUMHS, Jamshoro, Sindh, Pakistan<br>
+                Email: alizabaloch527@gmail.com &nbsp;|&nbsp; Phone: +923233001867
+            </p>
+
+            <p style="font-family:'Source Sans 3',sans-serif; font-size:9pt; color:#888; margin-top:15px;">
+                <strong>Article Info:</strong> Received:____/____/________ &nbsp;|&nbsp; Accepted:____/____/________
+                &nbsp;|&nbsp; Published:____/____/________
+            </p>
+        </div>
+
+        <!-- ══════════════════════════════════════════════ -->
+        <!--                  ABSTRACT                     -->
+        <!-- ══════════════════════════════════════════════ -->
+        <div class="abstract">
+            <h2 id="abstract">Abstract</h2>
+            <p><strong>Background:</strong> Hospital-acquired infections remain a significant challenge in healthcare
+                settings worldwide. Nurses, being at the frontline of patient care, play a crucial role in infection
+                prevention and control (IPC). However, studies from Pakistan consistently report a gap between knowledge
+                and practice of IPC measures.</p>
+            <p><strong>Objective:</strong> To assess the knowledge, practices, and institutional barriers related to
+                infection prevention and control among nurses working at Liaquat University of Medical &amp; Health
+                Sciences (LUMHS), Jamshoro and Hyderabad.</p>
+            <p><strong>Methods:</strong> A descriptive cross-sectional study was conducted among 103 nurses at LUMHS
+                using a structured questionnaire with 15 items covering knowledge, practice, and barriers. Data were
+                analyzed using IBM SPSS Version 23 with descriptive statistics and chi-square tests.</p>
+            <p><strong>Results:</strong> The majority of participants were female (61.2%), aged 26-30 years (46.6%), and
+                held BSN qualifications (65.0%). The mean knowledge score was 3.61/5 (SD=1.02) with 60.2% demonstrating
+                good knowledge. The mean practice score was 7.31/9 (SD=1.28) with 73.8% reporting good practice.
+                Critical gaps included: 50.5% incorrectly believing clean water alone destroys microorganisms, 30.1%
+                handling body fluids without gloves, and 28.2% not attending annual IPC training. No significant gender
+                or age associations were found (p&gt;0.05).</p>
+            <p><strong>Conclusion:</strong> Nurses demonstrated adequate overall knowledge but inconsistent practice
+                implementation. The primary barriers are institutional rather than individual, suggesting that systemic
+                interventions targeting training frequency, guideline accessibility, and PPE supply would be more
+                effective than knowledge-based education alone.</p>
+            <div class="keywords">
+                <strong>Keywords:</strong> Infection control, nurses, healthcare-associated infections, hand hygiene,
+                personal protective equipment, nosocomial infections, tertiary hospital, Pakistan
+            </div>
+        </div>
+
+
+        <!-- ══════════════════════════════════════════════ -->
+        <!--             TABLE OF CONTENTS                 -->
+        <!-- ══════════════════════════════════════════════ -->
+        <div class="toc">
+            <h2>Table of Contents</h2>
+            <ul>
+                <li><a href="#abstract">Abstract</a></li>
+                <li><a href="#introduction">1. Introduction</a>
+                    <ul>
+                        <li><a href="#gaps">1.1 Gaps in Current Research</a></li>
+                        <li><a href="#objectives">1.2 Study Objectives</a></li>
+                    </ul>
+                </li>
+                <li><a href="#literature">2. Review of Related Literature</a>
+                    <ul>
+                        <li><a href="#synthesis">2.1 Synthesis of Evidence</a></li>
+                    </ul>
+                </li>
+                <li><a href="#methodology">3. Materials and Methods</a>
+                    <ul>
+                        <li><a href="#design">3.1 Study Design</a></li>
+                        <li><a href="#setting">3.2 Study Setting and Duration</a></li>
+                        <li><a href="#sample">3.3 Sample Size Calculation</a></li>
+                        <li><a href="#sampling">3.4 Sampling Method</a></li>
+                        <li><a href="#criteria">3.5 Inclusion and Exclusion Criteria</a></li>
+                        <li><a href="#instrument">3.6 Data Collection Instrument</a></li>
+                        <li><a href="#procedure">3.7 Data Collection Procedure</a></li>
+                        <li><a href="#ethics">3.8 Ethical Considerations</a></li>
+                        <li><a href="#analysis">3.9 Data Analysis</a></li>
+                    </ul>
+                </li>
+               
+                <li><a href="#references">References</a></li>
+            </ul>
+        </div>
+
+        <!-- ══════════════════════════════════════════════ -->
+        <!--               INTRODUCTION                    -->
+        <!-- ══════════════════════════════════════════════ -->
+        <h2 id="introduction">1. Introduction</h2>
+
+        <p>Hospital-acquired infections (HAIs) remain a significant challenge in healthcare systems worldwide. Patients
+            sometimes contract new infections during treatment, leading to worse outcomes, prolonged hospital stays, and
+            elevated healthcare costs. These infections affect both patients and healthcare workers, particularly nurses
+            who maintain the closest and most continuous patient contact.<sup>[<a href="#ref1"
+                    title="Reference 1">1</a>]</sup> In tertiary care hospitals
+            handling complex cases, the presence of immunocompromised patients, invasive devices, and high patient
+            turnover create environments where infectious agents spread more easily.<sup>[<a href="#ref2"
+                    title="Reference 2">2</a>]</sup></p>
+
+        <p>Standard infection control measures address these risks effectively when properly implemented. Hand hygiene
+            remains the cornerstone of prevention, recognized by the World Health Organization (WHO) as the single most
+            effective measure to prevent HAIs.<sup>[<a href="#ref3" title="Reference 3">3</a>]</sup> Additional measures
+            include proper use of personal protective
+            equipment (PPE), safe needle and sharps disposal, regular environmental cleaning, and equipment
+            sterilization.<sup>[<a href="#ref4" title="Reference 4">4</a>]</sup> International health organizations have
+            published comprehensive guidelines for
+            these practices. Yet compliance among healthcare workers, particularly in resource-limited settings, often
+            falls short of recommended standards.<sup>[<a href="#ref5" title="Reference 5">5</a>]</sup></p>
+
+        <p>Studies consistently document a persistent gap between theoretical knowledge and actual practice of infection
+            control measures.<sup>[<a href="#ref1" title="Reference 1">1</a>,<a href="#ref4"
+                    title="Reference 4">4</a>,<a href="#ref6" title="Reference 6">6</a>]</sup> Nurses might correctly
+            answer questions about protocols while admitting
+            they skip proper technique during busy shifts. Several factors contribute to this gap, including lack of
+            continuous education, inadequate training, insufficient resources, and excessive workload.<sup>[<a
+                    href="#ref7" title="Reference 7">7</a>,<a href="#ref8" title="Reference 8">8</a>]</sup></p>
+
+        <p>Pakistan's healthcare system faces pressures that compound compliance challenges. Public hospitals operate
+            with nurse-to-patient ratios below recommended levels. Supply issues leave wards without adequate protective
+            equipment. Administrative oversight remains inconsistent.<sup>[<a href="#ref2" title="Reference 2">2</a>,<a
+                    href="#ref5" title="Reference 5">5</a>]</sup> A nurse working a 12-hour shift with
+            twice the recommended patient load, facing glove shortages, and receiving no supervisory feedback exists in
+            a markedly different context than the controlled settings where international protocols were developed.
+            Tertiary hospitals treating the sickest patients represent settings where prevention failures carry the
+            highest stakes, yet research examining these facilities in Pakistan remains limited.</p>
+
+        <h3 id="gaps">1.1 Gaps in Current Research</h3>
+
+        <p>Existing studies from Pakistan document the knowledge-practice disconnect, but important questions remain
+            unanswered. Most research measures knowledge and practice separately without examining what prevents nurses
+            from acting on their knowledge.<sup>[<a href="#ref1" title="Reference 1">1</a>,<a href="#ref2"
+                    title="Reference 2">2</a>,<a href="#ref3" title="Reference 3">3</a>,<a href="#ref4"
+                    title="Reference 4">4</a>,<a href="#ref5" title="Reference 5">5</a>]</sup> Survey methods dominate,
+            creating potential for social
+            desirability bias. Few studies employ observational methods or examine actual compliance through direct
+            monitoring.</p>
+
+        <p>The specific context of tertiary hospitals has received insufficient attention. These facilities handle
+            referral cases, treat complex conditions, and maintain intensive care units where infection risks are
+            elevated. Whether barriers differ between tertiary and district hospitals remains unclear. Most importantly,
+            studies treat structural constraints as background factors rather than central inquiry subjects. When
+            international guidelines assume consistent access to running water and unlimited sterile gloves, how do
+            nurses in resource-limited settings prioritize competing demands?</p>
+
+        <h3 id="objectives">1.2 Study Objectives</h3>
+        <p>This research examines infection control among nurses in tertiary care settings through four objectives:</p>
+        <ol>
+            <li>Assess current knowledge levels regarding infection prevention protocols</li>
+            <li>Evaluate reported infection control practices during patient care</li>
+            <li>Identify institutional, environmental, and individual barriers impeding adherence</li>
+            <li>Analyze relationships between demographics, knowledge, practices, and barriers</li>
+        </ol>
+
+        <!-- ══════════════════════════════════════════════ -->
+        <!--            LITERATURE REVIEW                  -->
+        <!-- ══════════════════════════════════════════════ -->
+        <h2 id="literature">2. Review of Related Literature</h2>
+
+        <p>Khowaja and colleagues<sup>[<a href="#ref1" title="Reference 1">1</a>]</sup> conducted a cross-sectional
+            study at Liaquat Institute of Medical &amp;
+            Health Sciences Hospital, Thatta, with 30 nurses. The study found that nurses demonstrated satisfactory
+            understanding of infection control principles, but actual compliance fell below acceptable standards.
+            Inadequate continuing education and irregular protective equipment availability were identified as key
+            obstacles. However, the study did not explore how these barriers interact: whether guaranteed glove supply
+            alone would improve compliance, or whether multiple factors need simultaneous change.</p>
+
+        <p>Batool and colleagues<sup>[<a href="#ref2" title="Reference 2">2</a>]</sup> studied 138 nurses at Sandeman
+            Provincial Civil Hospital and Bolan Medical
+            Complex Hospital in Quetta. They documented concerning practices including insufficient hand hygiene and
+            found that 99.3% of participants reported using gloves and 97.8% used masks. As per perceptions, 66.7%
+            agreed that nurses with common colds should be excused from duty, and 76.8% acknowledged that cultural
+            attitudes influence infection spread. Environmental factors emerged as significant contributors,
+            particularly poor sanitation and absent monitoring. Infection control practices were statistically
+            non-significant according to age and work experience (p&gt;0.05).</p>
+
+        <p>Kousar's team<sup>[<a href="#ref3" title="Reference 3">3</a>]</sup> studied nurses at Aziz Bhatti Shaheed
+            Hospital, Gujrat, reporting high awareness
+            but inconsistent implementation. Utilizing the Health Belief Model as a theoretical framework, their
+            analysis emphasized the role of infection control committees and surveillance programs. The chi-square
+            analysis revealed significant gender differences in knowledge, with female nurses showing higher knowledge
+            regarding antiseptic use, autoclaving, and hand washing practices. However, the study did not examine
+            whether institutional oversight systems actually function in Pakistani hospitals.</p>
+
+        <p>Soomro and colleagues<sup>[<a href="#ref4" title="Reference 4">4</a>]</sup> examined Isra University
+            Hospital, Hyderabad, with 60 nurses, focusing on
+            standard infection control precautions. They found high adherence to basic measures (85% for hand hygiene
+            and standard precautions) but lower compliance with specialized procedures-only 56.7% wore gowns and gloves
+            when contact precautions were required, and only 45% consistently wore gloves during blood collection. These
+            findings highlight that while general preventive measures are maintained, specific high-risk procedures
+            require additional attention.</p>
+
+        <p>Baqar and colleagues<sup>[<a href="#ref5" title="Reference 5">5</a>]</sup> documented occupational hazards
+            from blood exposure among 111 nursing staff
+            at a tertiary care hospital in Khairpur. Using a WHO-validated questionnaire combined with direct
+            observation, they found 88.3% agreed healthcare workers should be vaccinated, but 66.7% of nurses recapped
+            needles despite knowing the associated dangers. The study uniquely incorporated observation alongside
+            self-reporting, revealing that 0.9% compliance with hand washing before aseptic tasks and 19.8% after glove
+            removal-dramatically lower than self-reported rates. Gender differences were significant (p=0.000), with
+            female nurses showing higher compliance with hand hygiene and PPE use.</p>
+
+        <h3 id="synthesis">2.1 Synthesis of Evidence</h3>
+
+        <p>Common themes emerge across these five studies. Knowledge levels appear generally adequate-most nurses can
+            identify proper procedures when asked. Yet practice consistently falls short of knowledge, a pattern that
+            holds across different cities and hospital types. The explanations converge on resource constraints,
+            workload pressures, and training gaps. However, current research describes barriers without deeply analyzing
+            their relative importance or interaction effects. Moreover, most studies rely on self-reported data, which
+            likely inflates compliance estimates, as demonstrated by the dramatic discrepancy between self-reported and
+            observed compliance in the Baqar study.<sup>[<a href="#ref5" title="Reference 5">5</a>]</sup></p>
+
+        <p>The present study addresses these limitations by examining knowledge, practices, and barriers together within
+            the tertiary hospital context at LUMHS, using a comprehensive instrument that captures institutional
+            barriers alongside individual knowledge and practice measures.</p>
+
+        <!-- ══════════════════════════════════════════════ -->
+        <!--              METHODOLOGY                      -->
+        <!-- ══════════════════════════════════════════════ -->
+        <h2 id="methodology">3. Materials and Methods</h2>
+
+        <h3 id="design">3.1 Study Design</h3>
+        <p>A descriptive cross-sectional study was conducted to assess the knowledge, practices, and challenges of
+            infection prevention and control among nurses working at tertiary healthcare settings.</p>
+
+        <h3 id="setting">3.2 Study Setting and Duration</h3>
+        <p>The study was carried out at Liaquat University of Medical &amp; Health Sciences (LUMHS), including the main
+            campus hospital in Jamshoro and its branch facility in Hyderabad, Sindh, Pakistan. Data collection was
+            conducted from January to February 2026. LUMHS is a major public sector tertiary care teaching hospital
+            providing specialized medical services across multiple departments including Medicine, Surgery, Pediatrics,
+            ICU, CCU, Emergency, Orthopedics, Cardiology, Pulmonology, Urology, Nephrology, Gynecology, and Operation
+            Theater.</p>
+
+        <h3 id="sample">3.3 Sample Size Calculation</h3>
+        <p>The sample size was calculated using Slovin's formula:</p>
+        <p style="text-align:center; font-style:italic; font-size:12pt; margin:15px 0;"><strong>n = N / (1 + N ×
+                e²)</strong></p>
+        <p>Where N = total nursing population at LUMHS (~140 nurses across both campuses) and e = margin of error
+            (0.05). This yielded n = 140 / (1 + 140 × 0.0025) = 140 / 1.35 ≈ <strong>103 participants</strong>.</p>
+
+        <h3 id="sampling">3.4 Sampling Method</h3>
+        <p>Convenience (non-probability) sampling method was adopted. Nurses available and willing to participate during
+            the data collection period were enrolled from various clinical departments across both campuses.</p>
+
+        <h3 id="criteria">3.5 Inclusion and Exclusion Criteria</h3>
+        <p><strong>Inclusion:</strong> All registered staff nurses (male and female) currently employed at LUMHS in
+            direct patient care roles. <strong>Exclusion:</strong> Student nurses, interns, nurses on leave during data
+            collection, those who declined participation, and administrative nursing staff not involved in direct
+            patient care.</p>
+
+        <h3 id="instrument">3.6 Data Collection Instrument</h3>
+        <p>Data were collected using a structured, self-administered questionnaire designed based on previous published
+            literature and WHO infection control guidelines.<sup>[<a href="#ref5" title="Reference 5">5</a>,<a
+                    href="#ref9" title="Reference 9">9</a>]</sup> The questionnaire consisted of two sections:
+        </p>
+
+        <p><strong>Section A - Demographic Data (5 items):</strong> Gender, age, marital status, professional
+            qualification, and department.</p>
+
+        <p><strong>Section B - Knowledge, Practice, and Barriers (15 items):</strong> Questions were categorized into
+            three overlapping domains: Knowledge (5 items covering HAI transmission, nosocomial infection definition,
+            WHO hand hygiene moments, universal precautions, and water disinfection); Practice (9 items covering
+            training availability, hand washing, PPE use, body fluid handling, and waste management); and Barriers (5
+            items covering training frequency, guideline accessibility, knowledge adequacy, PPE availability, and
+            workshop attendance). Response options were Yes/No/Don't Know for all items.</p>
+
+        <h3 id="procedure">3.7 Data Collection Procedure</h3>
+        <p>The questionnaire was physically distributed to nurses during their duty shifts across different departments
+            at both LUMHS campuses. The purpose of the study was explained to each participant. Participants were given
+            adequate time to complete the questionnaire and assistance was provided for ambiguous items. Completed
+            questionnaires were collected on the same day.</p>
+
+        <h3 id="ethics">3.8 Ethical Considerations</h3>
+        <p>Verbal and written informed consent was obtained from all participants. Participation was voluntary, and
+            nurses could withdraw at any time without consequence. All responses were anonymous and confidential. The
+            study adhered to the principles of the Declaration of Helsinki. Approval was obtained from hospital
+            administration.</p>
+
+        <h3 id="analysis">3.9 Data Analysis</h3>
+        <p>Data were entered and analyzed using IBM SPSS Statistics Version 23. Descriptive statistics (frequencies,
+            percentages, mean, standard deviation) were used to summarize demographic characteristics and response
+            distributions. Chi-square test (χ²) was used to test associations between demographic variables and
+            knowledge/practice scores. Cross-tabulation was used to compare responses across demographics. A p-value ≤
+            0.05 was considered statistically significant.</p>
+
+       
+
+        <h2 id="references">References</h2>
+
+        <div class="references">
+            <ol>
+                <li id="ref1">Khowaja Z, Channar HB, Khowaja S, Channa S, Junejo Z. Knowledge and Practice of Infection
+                    Control
+                    Among Nurses at Liaquat Institute of Medical and Health Sciences Hospital, Thatta. <em>Journal of
+                        Health Rehabilitation Research.</em> 2024;4(3). doi:10.61919/jhrr.v4i3.1425</li>
+
+                <li id="ref2">Batool S, Kousar S, Chandio K, Memon KN, Wilson NR. Infection Control Practices Among
+                    Nurses Working
+                    at Tertiary Care Hospitals of Quetta, Pakistan. <em>RADS Journal of Pharmacy and Allied Health
+                        Sciences.</em> 2023;1(1):1-8.</li>
+
+                <li id="ref3">Kousar R, Afzal M, Parveen K, Hussain M, Gilani SA. Awareness and Practices of Nurses
+                    Related to
+                    Infection Control and Prevention at Public Sector, Pakistan. <em>Journal of Global Biosciences.</em>
+                    2020;9(10):8025–8034.</li>
+
+                <li id="ref4">Soomro A, Junejo Z, Soomro P, Soomro P, Bashir M. Knowledge and Practice of Standard
+                    Infection
+                    Control Precautions among Staff Nurses at Isra University Hospital, Hyderabad. <em>Pakistan Journal
+                        of Multidisciplinary Innovation.</em> 2024;3(2):1-8.</li>
+
+                <li id="ref5">Baqar M, Kumar R, Khushk IA, Noonari AA, Ahmed F. Hospital Infection Control Practices
+                    among Nursing
+                    Staff Working at Tertiary Care Hospital of Khairpur, Sindh. <em>Journal of Liaquat University of
+                        Medical and Health Sciences.</em> 2018;17(02):117-122. doi:10.22442/jlumhs.181720563</li>
+
+                <li id="ref6">Geberemariyam BS, Donka GM, Wordofa B. Assessment of knowledge and practices of healthcare
+                    workers
+                    towards infection prevention and associated factors in healthcare facilities of West Arsi District,
+                    Southeast Ethiopia. <em>Archives of Public Health.</em> 2018;76(1):69. doi:10.1186/s13690-018-0314-0
+                </li>
+
+                <li id="ref7">Haque M, Sartelli M, McKimm J, Bakar MA. Health care-associated infections–an overview.
+                    <em>Infection and Drug Resistance.</em> 2018;11:2321-2333.
+                </li>
+
+                <li id="ref8">Stewart S, Robertson C, Pan J, et al. Impact of healthcare-associated infection on length
+                    of stay.
+                    <em>Journal of Hospital Infection.</em> 2021;114:23-31.
+                </li>
+
+                <li id="ref9">World Health Organization. WHO Guidelines on Hand Hygiene in Health Care. Geneva: WHO;
+                    2009.</li>
+
+                <li id="ref10">O Nour M, Mohamed AM, Al Bishi HA, Amir AA. Knowledge, attitude and practices of
+                    healthcare
+                    providers towards MERS-CoV infection at Makkah hospitals, KSA. <em>International Research Journal of
+                        Medicine and Medical Sciences.</em> 2017;5(4):76-86.</li>
+
+                <li id="ref11">Iliyasu G, Dayyab FM, Habib ZG, et al. Knowledge and practices of infection control among
+                    healthcare
+                    workers in a tertiary referral center in North-Western Nigeria. <em>Annals of African Medicine.</em>
+                    2016;15(1):34-40.</li>
+
+                <li id="ref12">Alrubaiee G, Baharom A, Shahar HK, Daud SM, Basaleem HO. Knowledge and practices of
+                    nurses regarding
+                    nosocomial infection control measures in private hospitals in Sana'a City, Yemen. <em>Safety in
+                        Health.</em> 2017;3(1):1-6.</li>
+
+                <li id="ref13">Shahida SM, Islam A, Dey BR, Islam F, Venkatesh K, Goodman A. Hospital Acquired
+                    Infections in Low
+                    and Middle Income Countries: Root Cause Analysis and the Development of Infection Control Practices
+                    in Bangladesh. <em>Open Journal of Obstetrics and Gynecology.</em> 2016;6(1):28-39.</li>
+
+                <li id="ref14">Gomarverdi S, Khatiban M, Bikmoradi A, Soltanian AR. Effects of a multi-component
+                    educational
+                    intervention on nurses' knowledge and adherence to standard precautions in intensive care units.
+                    <em>Journal of Infection Prevention.</em> 2019;20(2):83-90.
+                </li>
+
+                <li id="ref15">Alnajrani AH. Infection Control Across Healthcare Disciplines: Radiology, Nursing,
+                    Internal
+                    Medicine, Laboratory, and Optic Technicians. <em>Analysis and Metaphysics.</em> 2024;23:52-68.</li>
+            </ol>
+        </div>
+
+        <!-- ══════════════════════════════════════════════ -->
+        <!--                FOOTER                         -->
+        <!-- ══════════════════════════════════════════════ -->
+        <div class="meta-bar">
+            <span>Cross-sectional study | LUMHS Jamshoro &amp; Hyderabad</span>
+            <span>January – February 2026</span>
+            <span>n = 103 | 15-item questionnaire</span>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

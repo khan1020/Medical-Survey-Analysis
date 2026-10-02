@@ -1,0 +1,105 @@
+Participant No:,Date:,1. Gender,2. Age (Years),3. Marital Status,4. Professional Qualification,5. Department,1. Periodic education or training on infection prevention and control is conducted in my department.,2. Infection control guidelines are available and accessible in my department.,3. Hospital-acquired infections can be transmitted through contaminated medical equipment.,4. Nosocomial infection refers to an infection acquired during hospital stay rather than from home.,5. I wash my hands before and after every direct contact with patients.,6. I am aware of the WHO Five Moments of Hand Hygiene.,7. All healthcare workers and patients should be considered potentially infectious.,8. Clean water alone is sufficient to destroy harmful microorganisms.,"9. Body fluids should never be handled with bare hands, even if gloves are unavailable.",10. I have adequate knowledge regarding prevention and control of hospital-acquired infections.,11. Personal protective equipment (PPE) is always available when needed in my department.,12. I wear masks and eye protection during invasive or high-risk procedures.,13. I attend in-service training or workshops related to infection prevention and control at least once a year.,14. I wear appropriate PPE when handling contaminated linen or hospital waste.,15. Proper infection prevention and control practices improve patient outcomes.
+1,26/01/2026,Male,26-30,Married,Diploma in Nursing,Neurosurgery,No,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+2,26/01/2026,Male,31-40,Married,BSN,Advanced Pediatric Care,Yes,Yes,Yes,Yes,Yes,No,Don't Know,Yes,Don't Know,Don't Know,Yes,Yes,No,Yes,Yes
+3,26/01/2026,Female,Above 40,Married,BSN,Endoscopy,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+4,26/01/2026,Female,<=25,Single,BSN,Pediatrics,Don't Know,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,No,Yes
+5,26/01/2026,Female,26-30,Single,BSN,Pulmonology,Yes,Yes,No,No,Don't Know,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+6,26/01/2026,Female,<=25,Single,Diploma in Nursing,Neurosurgery,No,Yes,Yes,Yes,Yes,Yes,Yes,No,No,Yes,Yes,Yes,No,Yes,Yes
+7,26/01/2026,Male,26-30,Single,Diploma in Nursing,Child Emergency,Yes,Yes,Yes,No,Yes,Yes,No,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes
+8,26/01/2026,Male,31-40,Married,Diploma in Nursing,Nephrology,Yes,Yes,Yes,No,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,No,Yes
+9,26/01/2026,Male,31-40,Single,BSN,ICU,No,No,Yes,Yes,Yes,Yes,No,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+10,26/01/2026,Male,Above 40,Married,BSN,Orthopedics,Yes,Yes,Yes,No,Yes,No,Yes,No,Yes,No,Yes,Yes,Yes,Yes,Yes
+11,26/01/2026,Female,26-30,Married,BSN,Emergency,No,Yes,Yes,Yes,Yes,Yes,No,No,Yes,Yes,Yes,Yes,No,Yes,Yes
+12,26/01/2026,Female,<=25,Single,BSN,Medicine,Don't Know,No,Yes,Yes,Yes,Yes,Yes,No,No,Yes,Yes,Yes,No,Yes,Yes
+13,26/01/2026,Female,26-30,Married,Diploma in Nursing,CCU,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No,Yes,Yes,Yes,No,Yes,Yes
+14,26/01/2026,Male,26-30,Married,BSN,Gynecology,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes
+15,26/01/2026,Male,<=25,Single,BSN,Labor Room,Yes,Yes,Yes,Don't Know,Yes,No,Yes,No,Yes,Yes,Yes,Yes,Yes,No,Yes
+16,26/01/2026,Female,26-30,Married,BSN,Nephrology,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No,Yes,Yes,Yes,Yes,Yes,Yes
+17,26/01/2026,Female,26-30,Single,Post RN BSCN,Cardiology,Yes,Yes,Yes,No,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+18,26/01/2026,Male,31-40,Married,BSN,Cardiology,Yes,Yes,Yes,Yes,Yes,No,Yes,No,Yes,Yes,Yes,No,Yes,Yes,Yes
+19,26/01/2026,Male,26-30,Married,Post RN BSCN,Urology,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No,Yes,Yes,Yes,Yes,Yes,Yes
+20,26/01/2026,Male,26-30,Single,BSN,Urology,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes
+21,26/01/2026,Male,31-40,Married,BSN,Medicine,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes
+22,26/01/2026,Female,31-40,Married,BSN,Psychiatry,Yes,No,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+23,26/01/2026,Female,26-30,Single,Diploma in Nursing,Medicine,Yes,Yes,Yes,No,Don't Know,Yes,No,Yes,Yes,No,Yes,Yes,No,No,Yes
+24,26/01/2026,Male,26-30,Married,Diploma in Nursing,Psychiatry,Yes,Yes,Yes,Yes,No,No,Yes,No,Yes,No,Yes,No,Yes,Yes,Yes
+25,26/01/2026,Female,<=25,Single,Diploma in Nursing,Surgery,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,No,Yes
+26,26/01/2026,Female,26-30,Single,Pharmacist ,Pulmonology,Yes,No,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,No,Yes,Yes
+27,26/01/2026,Female,31-40,Widowed,BSN,Pulmonology,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes
+28,26/01/2026,Female,Above 40,Single,BSN,Labor Room,Yes,No,Yes,No,Yes,No,No,Yes,No,Yes,Yes,No,Yes,Yes,Yes
+29,26/01/2026,Male,26-30,Single,Diploma in Nursing,Neurosurgery,No,No,Yes,Yes,Yes,Yes,Yes,No,No,No,No,Yes,No,No,Don't Know
+30,26/01/2026,Female,31-40,Married,Diploma in Nursing,Neurology,Yes,Yes,Don't Know,Yes,Yes,Yes,Yes,No,No,No,Yes,No,Yes,Yes,Yes
+31,26/01/2026,Male,26-30,Single,Diploma in Nursing,Urology,Yes,Yes,Yes,No,Yes,Yes,Yes,No,Yes,Yes,Yes,No,Yes,Yes,Yes
+32,26/01/2026,Female,26-30,Married,BSN,Surgery,Yes,No,Yes,Yes,Yes,No,Yes,No,No,Yes,Yes,No,Yes,Yes,Yes
+33,26/01/2026,Female,26-30,Married,BSN,Medicine,Yes,Yes,Yes,No,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+34,27/01/2026,Female,31-40,Married,BSN,Labor Room,Yes,No,Yes,Yes,No,Yes,Yes,Yes,Yes,No,Yes,No,No,Yes,Yes
+35,27/01/2026,Female,Above 40,Widowed,BSN,Thalassemia,No,Yes,Yes,Yes,Yes,,Yes,Yes,Yes,Yes,No,Yes,No,Yes,Yes
+36,27/01/2026,Female,26-30,Married,Diploma in Nursing,Pulmonology,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes
+37,27/01/2026,Female,31-40,Married,BSN,Pediatrics,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,No,No,Yes,Yes,No,Yes
+38,27/01/2026,Male,26-30,Married,BSN,Advanced Pediatric Care,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+39,27/01/2026,Female,<=25,Married,BSN,Urology,Don't Know,Yes,Yes,Yes,No,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,No,Yes
+40,27/01/2026,Male,31-40,Married,BSN,Child Emergency,No,Yes,Yes,No,No,Yes,Yes,Yes,No,,Yes,Yes,Yes,Yes,Yes
+41,27/01/2026,Male,<=25,Single,BSN,ICU,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+42,27/01/2026,Female,31-40,Single,BSN,Surgery,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes
+43,27/01/2026,Male,26-30,Married,BSN,Thalassemia,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes
+44,28/01/2026,Female,Above 40,Married,BSN,Orthopedics,Yes,Yes,Yes,No,Yes,Yes,Yes,No,No,Yes,Yes,Yes,Yes,Yes,Yes
+45,28/01/2026,Female,26-30,Married,Diploma in Nursing,Urology,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+46,28/01/2026,Male,<=25,Married,BSN,Ophthalmology,Yes,Yes,Yes,Yes,Yes,Yes,No,No,Yes,Yes,No,Yes,Yes,Yes,Yes
+47,28/01/2026,Male,26-30,Widowed,Diploma in Nursing,Emergency,Yes,Yes,Yes,No,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes
+48,28/01/2026,Female,31-40,Married,BSN,Pulmonology,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,No,Yes,Yes,No,Yes
+49,28/01/2026,Female,31-40,Single,BSN,Advanced Pediatric Care,No,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No,No,Yes,No,Yes,Yes
+50,28/01/2026,Female,26-30,Married,BSN,Medicine,No,Yes,Don't Know,Don't Know,,No,No,Yes,Yes,Yes,Yes,Yes,No,No,Yes
+51,28/01/2026,Female,<=25,Single,BSN,CCU,Yes,Yes,Yes,No,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,No,Yes,Yes
+52,28/01/2026,Male,31-40,Married,BSN,Operation Theater,Yes,Yes,Yes,No,Yes,Yes,Don't Know,Yes,No,No,No,Yes,Yes,No,Yes
+53,28/01/2026,Male,26-30,Married,BSN,ICU,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes
+54,28/01/2026,Female,31-40,Married,BSN,Urology,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No,Yes,No,No,Yes,Yes,Yes
+55,29/01/2026,Female,31-40,Single,BSN,Neurology,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Don't Know,No,Yes,Yes,Yes,Yes,Yes
+56,29/01/2026,Female,Above 40,Married,BSN,Cardiology,Yes,Yes,Yes,Yes,Yes,Yes,No,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+57,29/01/2026,Female,<=25,Married,BSN,Orthopedics,Yes,Yes,Don't Know,Yes,Yes,Yes,Don't Know,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+58,29/01/2026,Female,26-30,Married,,Orthopedics,Yes,No,Yes,Yes,Yes,Yes,Yes,Don't Know,No,,Yes,Yes,Yes,Yes,Yes
+59,29/01/2026,Female,<=25,Single,Post RN BSCN,Nephrology,Yes,No,Yes,Don't Know,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes
+60,29/01/2026,Female,26-30,Married,Diploma in Nursing,Pulmonology,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes
+61,30/01/2026,Male,26-30,Married,BSN,Surgery,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes
+62,30/01/2026,Female,26-30,Single,BSN,Advanced Pediatric Care,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,No,No,Yes,Yes
+63,30/01/2026,Female,26-30,Single,Diploma in Nursing,Labor Room,Yes,Yes,Yes,No,No,Yes,Yes,No,No,Yes,Yes,Yes,Yes,No,Yes
+64,31/01/2026,Female,26-30,Widowed,BSN,Operation Theater,Yes,No,Yes,No,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,No,No,Yes
+65,31/01/2026,Male,26-30,Married,BSN,Cardiology,Yes,Yes,Yes,Yes,Don't Know,Yes,Yes,No,No,Yes,Yes,Yes,No,Yes,Yes
+66,31/01/2026,Female,Above 40,Married,Diploma in Nursing,Surgery,No,Yes,Yes,No,Yes,No,Yes,Yes,No,Yes,Yes,Yes,No,Yes,Yes
+67,31/01/2026,Male,31-40,Married,Diploma in Nursing,Medicine,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+68,01/02/2026,Female,Above 40,Single,Diploma in Nursing,CCU,Yes,No,No,Don't Know,Yes,Yes,Yes,No,Yes,Yes,No,Yes,Yes,No,Yes
+69,01/02/2026,Female,26-30,Married,Post RN BSCN,CCU,No,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,No,No,Don't Know
+70,02/02/2026,Male,26-30,Married,BSN,Neurology,Yes,No,Yes,No,Yes,Yes,Don't Know,No,No,No,Yes,Yes,No,Yes,Yes
+71,02/02/2026,Female,26-30,Single,BSN,Pulmonology,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes
+72,02/02/2026,Female,26-30,Married,Post RN BSCN,Medicine,Yes,Yes,Yes,Don't Know,Yes,No,Yes,Yes,No,Yes,No,Yes,No,Yes,Yes
+73,02/02/2026,Female,26-30,Single,Diploma in Nursing,Labor Room,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,No,No,Yes,No,Yes,Yes
+74,03/02/2026,Male,<=25,Single,BSN,Cardiology,Yes,Yes,Yes,No,Yes,No,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes
+75,03/02/2026,Male,<=25,Single,BSN,Advanced Pediatric Care,Yes,No,Yes,Yes,Yes,No,No,No,No,Yes,Yes,Yes,Yes,Yes,Yes
+76,03/02/2026,Female,<=25,Married,Diploma in Nursing,Nephrology,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,No,Yes,Yes
+77,03/02/2026,Male,Above 40,Married,Diploma in Nursing,Medicine,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes
+78,03/02/2026,Female,26-30,Single,BSN,CCU,Yes,Yes,Yes,Yes,Yes,Yes,No,No,No,Yes,Yes,Yes,Yes,Yes,Yes
+79,03/02/2026,Female,26-30,Single,Diploma in Nursing,Advanced Pediatric Care,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes
+80,03/02/2026,Female,31-40,Married,BSN,Pediatric Surgery,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+81,03/02/2026,Female,26-30,Married,BSN,Emergency,Yes,No,Yes,Yes,Yes,Yes,Yes,No,No,No,Yes,Yes,Yes,Yes,Yes
+82,03/02/2026,Female,26-30,Single,BSN,Anesthesiology,Yes,Yes,Yes,No,Yes,No,No,No,No,No,Yes,No,Yes,No,Yes
+83,03/02/2026,Male,31-40,Single,Diploma in Nursing,Emergency,Yes,No,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes
+84,03/02/2026,Female,26-30,Married,Diploma in Nursing,Pulmonology,Yes,Yes,Yes,Yes,No,Yes,Yes,No,No,Yes,Yes,Yes,Yes,Yes,Yes
+85,03/02/2026,Female,31-40,Single,Diploma in Nursing,Medicine,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,No,Yes,Yes
+86,03/02/2026,Female,<=25,Single,BSN,Advanced Pediatric Care,Yes,No,Yes,Yes,Yes,Yes,No,Yes,No,No,Yes,Yes,Yes,Yes,Yes
+87,03/02/2026,Female,<=25,Single,BSN,Pediatrics,No,No,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,No,Yes,Yes
+88,03/02/2026,Female,31-40,Single,BSN,Nephrology,No,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,No,Yes
+89,03/02/2026,Male,<=25,Single,BSN,Labor Room,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+90,03/02/2026,Male,26-30,Married,BSN,Emergency,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+91,03/02/2026,Female,<=25,Married,Diploma in Nursing,Pediatrics,No,Yes,Yes,Yes,Yes,Yes,No,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+92,03/02/2026,Female,26-30,Single,BSN,Emergency,Yes,Yes,Yes,No,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,No,Yes
+93,03/02/2026,Female,<=25,Single,BSN,Orthopedics,Yes,Yes,Yes,No,No,Yes,No,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+94,03/02/2026,Male,26-30,Single,Diploma in Nursing,Pulmonology,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+95,03/02/2026,Female,<=25,Single,BSN,Medicine,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+96,03/02/2026,Female,26-30,Married,BSN,Labor Room,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+97,03/02/2026,Male,Above 40,Married,BSN,Cardiology,Yes,No,Yes,Don't Know,Yes,Yes,No,Yes,Yes,No,Yes,Yes,No,Yes,Yes
+98,03/02/2026,Female,Above 40,Single,BSN,Cardiology,Yes,Yes,Yes,Yes,Yes,Yes,No,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+99,03/02/2026,Male,26-30,Single,BSN,Pulmonology,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+100,03/02/2026,Male,31-40,Single,BSN,Pediatrics,Yes,Yes,Yes,Yes,Yes,Yes,No,No,Yes,No,Yes,No,Yes,Yes,Yes
+101,03/02/2026,Male,26-30,Married,Diploma in Nursing,Neurology,Yes,No,Yes,Don't Know,Don't Know,,Yes,No,Yes,Yes,Yes,No,No,Yes,Yes
+102,03/02/2026,Male,26-30,Married,BSN,CCU,No,Yes,Yes,Yes,Yes,No,No,Yes,No,Yes,Yes,Yes,No,Yes,Yes
+103,03/02/2026,Male,31-40,Married,BSN,ICU,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+,,,,,,,,,,,,,,,,,,,,,

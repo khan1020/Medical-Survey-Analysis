@@ -1,0 +1,183 @@
+
+================================================================================
+TABLE 1: DEMOGRAPHIC CHARACTERISTICS OF PARTICIPANTS (n=103)
+================================================================================
+Variable                            Category                  Frequency (n)   Percentage (%)
+------------------------------------------------------------------------------------------
+Gender                              Male                      40              38.8%
+                                    Female                    63              61.2%
+
+Age (Years)                         <=25                      20              19.4%
+                                    26-30                     48              46.6%
+                                    31-40                     24              23.3%
+                                    Above 40                  11              10.7%
+
+Marital Status                      Single                    44              42.7%
+                                    Married                   55              53.4%
+                                    Widowed                   4               3.9%
+
+Professional Qualification          Diploma in Nursing        29              28.2%
+                                    BSN                       67              65.0%
+                                    Post RN BSCN              5               4.9%
+
+Department                          Category                  Frequency (n)   Percentage (%)
+------------------------------------------------------------------------------------------
+                                    Pulmonology               10              9.7%
+                                    Medicine                  10              9.7%
+                                    Advanced Pediatric Care   7               6.8%
+                                    Labor Room                7               6.8%
+                                    Cardiology                7               6.8%
+                                    Emergency                 6               5.8%
+                                    CCU                       6               5.8%
+                                    Urology                   6               5.8%
+                                    Pediatrics                5               4.9%
+                                    Nephrology                5               4.9%
+                                    Orthopedics               5               4.9%
+                                    Surgery                   5               4.9%
+                                    ICU                       4               3.9%
+                                    Neurology                 4               3.9%
+                                    Neurosurgery              3               2.9%
+                                    Child Emergency           2               1.9%
+                                    Psychiatry                2               1.9%
+                                    Thalassemia               2               1.9%
+                                    Operation Theater         2               1.9%
+                                    Endoscopy                 1               1.0%
+                                    Gynecology                1               1.0%
+                                    Ophthalmology             1               1.0%
+                                    Pediatric Surgery         1               1.0%
+                                    Anesthesiology            1               1.0%
+
+================================================================================
+TABLE 2: KNOWLEDGE ASSESSMENT RESPONSES (n=103)
+================================================================================
+Question                                                          Yes       No       DK
+------------------------------------------------------------------------------------------
+Q3. HAIs transmitted through contaminated equipment           95(92.2%)   5(4.9%)   3(2.9%)
+Q4. Nosocomial infection = acquired during hospital stay      72(69.9%)  24(23.3%)   7(6.8%)
+Q6. Aware of WHO Five Moments of Hand Hygiene                 81(78.6%)  20(19.4%)   0(0.0%)
+Q7. All HCWs/patients considered potentially infectious       74(71.8%)  25(24.3%)   4(3.9%)
+Q8. Clean water alone destroys harmful microorganisms         52(50.5%)  50(48.5%)   1(1.0%)
+
+Knowledge Score Summary:
+  Mean Knowledge Score: 3.61 / 5 (SD = 1.02)
+  Good Knowledge (≥4/5): 62 (60.2%)
+  Poor Knowledge (<4/5): 41 (39.8%)
+
+================================================================================
+TABLE 3: PRACTICE ASSESSMENT RESPONSES (n=103)
+================================================================================
+Question                                                          Yes       No       DK
+------------------------------------------------------------------------------------------
+Q1. Periodic education/training on IPC conducted in depart    83(80.6%)  17(16.5%)   3(2.9%)
+Q2. Infection control guidelines available and accessible     77(74.8%)  26(25.2%)   0(0.0%)
+Q5. Hand washing before/after every patient contact           91(88.3%)   7(6.8%)   4(3.9%)
+Q9. Body fluids never handled with bare hands                 68(66.0%)  33(32.0%)   2(1.9%)
+Q11. PPE always available when needed                         89(86.4%)  14(13.6%)   0(0.0%)
+Q12. Masks/eye protection during invasive procedures          88(85.4%)  15(14.6%)   0(0.0%)
+Q13. Attend IPC training/workshops at least once/year         74(71.8%)  29(28.2%)   0(0.0%)
+Q14. Appropriate PPE when handling contaminated waste         82(79.6%)  21(20.4%)   0(0.0%)
+Q15. Proper IPC practices improve patient outcomes           101(98.1%)   0(0.0%)   2(1.9%)
+
+Practice Score Summary:
+  Mean Practice Score: 7.31 / 9 (SD = 1.28)
+  Good Practice (≥7/9): 76 (73.8%)
+  Poor Practice (<7/9): 27 (26.2%)
+
+================================================================================
+TABLE 4: BARRIERS TO INFECTION CONTROL (n=103)
+================================================================================
+Barrier Item                                                      Yes       No       DK
+------------------------------------------------------------------------------------------
+Periodic IPC training conducted in department                 83(80.6%)  17(16.5%)   3(2.9%)
+IC guidelines available and accessible                        77(74.8%)  26(25.2%)   0(0.0%)
+Adequate personal knowledge of HAI prevention                 79(76.7%)  21(20.4%)   1(1.0%)
+PPE always available when needed                              89(86.4%)  14(13.6%)   0(0.0%)
+Attend IPC training at least once/year                        74(71.8%)  29(28.2%)   0(0.0%)
+
+Barrier Summary (% reporting 'No' = barrier present):
+  Periodic IPC training conducted in department: 16.5% report barrier
+  IC guidelines available and accessible: 25.2% report barrier
+  Adequate personal knowledge of HAI prevention: 20.4% report barrier
+  PPE always available when needed: 13.6% report barrier
+  Attend IPC training at least once/year: 28.2% report barrier
+
+================================================================================
+TABLE 5: ASSOCIATION BETWEEN GENDER AND RESPONSES (Chi-Square Test)
+================================================================================
+Question                                            Male Yes%  Female Yes%       χ²    p-value   Sig
+----------------------------------------------------------------------------------------------------
+Q1. Periodic education/training on IPC conducted       82.5%       79.4%    0.019     0.8915    NS
+Q2. Infection control guidelines available and a       72.5%       76.2%    0.035     0.8513    NS
+Q3. HAIs transmitted through contaminated equipm       97.5%       88.9%    1.473     0.2249    NS
+Q4. Nosocomial infection = acquired during hospi       65.0%       73.0%    0.415     0.5196    NS
+Q5. Hand washing before/after every patient cont       90.0%       87.3%    0.010     0.9196    NS
+Q6. Aware of WHO Five Moments of Hand Hygiene          77.5%       79.4%    0.000     1.0000    NS
+Q7. All HCWs/patients considered potentially inf       65.0%       76.2%    1.012     0.3144    NS
+Q8. Clean water alone destroys harmful microorga       57.5%       46.0%    0.869     0.3511    NS
+Q9. Body fluids never handled with bare hands          77.5%       58.7%    3.051     0.0807    NS
+Q10. Adequate knowledge of HAI prevention/contro       70.0%       81.0%    1.087     0.2972    NS
+Q11. PPE always available when needed                  90.0%       84.1%    0.305     0.5805    NS
+Q12. Masks/eye protection during invasive proced       82.5%       87.3%    0.150     0.6990    NS
+Q13. Attend IPC training/workshops at least once       77.5%       68.3%    0.627     0.4283    NS
+Q14. Appropriate PPE when handling contaminated        82.5%       77.8%    0.108     0.7423    NS
+Q15. Proper IPC practices improve patient outcom       97.5%       98.4%    0.000     1.0000    NS
+
+================================================================================
+TABLE 6: ASSOCIATION BETWEEN AGE AND RESPONSES (Chi-Square Test)
+================================================================================
+Question                                              ≤25%   26-30%   31-40%    >40%       χ²    p-val   Sig
+---------------------------------------------------------------------------------------------------------
+Q1. Periodic education/training on IPC conducted    70.0%   85.4%   79.2%  81.8%    2.190   0.5340    NS
+Q2. Infection control guidelines available and a    75.0%   70.8%   83.3%  72.7%    1.352   0.7169    NS
+Q3. HAIs transmitted through contaminated equipm    95.0%   95.8%   83.3%  90.9%    3.763   0.2883    NS
+Q4. Nosocomial infection = acquired during hospi    75.0%   66.7%   83.3%  45.5%    5.669   0.1289    NS
+Q5. Hand washing before/after every patient cont    90.0%   83.3%   91.7% 100.0%    2.933   0.4020    NS
+Q6. Aware of WHO Five Moments of Hand Hygiene       85.0%   75.0%   87.5%  63.6%    3.456   0.3265    NS
+Q7. All HCWs/patients considered potentially inf    70.0%   70.8%   79.2%  63.6%    1.060   0.7866    NS
+Q8. Clean water alone destroys harmful microorga    35.0%   52.1%   58.3%  54.5%    2.631   0.4520    NS
+Q9. Body fluids never handled with bare hands       70.0%   62.5%   66.7%  72.7%    0.631   0.8892    NS
+Q10. Adequate knowledge of HAI prevention/contro    95.0%   77.1%   62.5%  72.7%    6.557   0.0875    NS
+Q11. PPE always available when needed               85.0%   93.8%   75.0%  81.8%    5.094   0.1651    NS
+Q12. Masks/eye protection during invasive proced    95.0%   85.4%   75.0%  90.9%    3.836   0.2797    NS
+Q13. Attend IPC training/workshops at least once    75.0%   66.7%   79.2%  72.7%    1.375   0.7114    NS
+Q14. Appropriate PPE when handling contaminated     80.0%   77.1%   79.2%  90.9%    1.059   0.7870    NS
+Q15. Proper IPC practices improve patient outcom   100.0%   95.8%  100.0% 100.0%    2.337   0.5055    NS
+
+================================================================================
+TABLE 7: ASSOCIATION BETWEEN QUALIFICATION AND RESPONSES (Chi-Square Test)
+================================================================================
+Question                                             Diploma%    BSN%   PostRN%       χ²    p-val   Sig
+----------------------------------------------------------------------------------------------------
+Q1. Periodic education/training on IPC conducted       82.8%  79.1%    80.0%    0.170   0.9184    NS
+Q2. Infection control guidelines available and a       75.9%  76.1%    80.0%    0.042   0.9793    NS
+Q3. HAIs transmitted through contaminated equipm       89.7%  92.5%   100.0%    0.683   0.7107    NS
+Q4. Nosocomial infection = acquired during hospi       65.5%  73.1%    40.0%    2.676   0.2624    NS
+Q5. Hand washing before/after every patient cont       82.8%  89.6%   100.0%    1.601   0.4490    NS
+Q6. Aware of WHO Five Moments of Hand Hygiene          82.8%  76.1%    80.0%    0.533   0.7659    NS
+Q7. All HCWs/patients considered potentially inf       82.8%  64.2%   100.0%    5.532   0.0629    NS
+Q8. Clean water alone destroys harmful microorga       51.7%  52.2%    40.0%    0.280   0.8694    NS
+Q9. Body fluids never handled with bare hands          65.5%  67.2%    60.0%    0.119   0.9422    NS
+Q10. Adequate knowledge of HAI prevention/contro       72.4%  77.6%   100.0%    1.862   0.3941    NS
+Q11. PPE always available when needed                  89.7%  86.6%    60.0%    3.172   0.2048    NS
+Q12. Masks/eye protection during invasive proced       79.3%  86.6%   100.0%    1.760   0.4147    NS
+Q13. Attend IPC training/workshops at least once       69.0%  74.6%    60.0%    0.719   0.6979    NS
+Q14. Appropriate PPE when handling contaminated        75.9%  80.6%    80.0%    0.278   0.8704    NS
+Q15. Proper IPC practices improve patient outcom       96.6% 100.0%    80.0%   10.040   0.0066     *
+
+================================================================================
+OVERALL SUMMARY
+================================================================================
+Total Participants: 103
+Knowledge Score: Mean = 3.61/5, SD = 1.02
+  Good Knowledge (≥4): 62 (60.2%)
+Practice Score: Mean = 7.31/9, SD = 1.28
+  Good Practice (≥7): 76 (73.8%)
+
+KEY FINDINGS:
+  1. 92.2% correctly identified HAI transmission via contaminated equipment
+  2. 78.6% aware of WHO Five Moments of Hand Hygiene
+  3. 50.5% INCORRECTLY believe clean water alone destroys microorganisms
+  4. 88.3% report washing hands before/after patient contact
+  5. 86.4% report PPE always available
+  6. 71.8% attend IPC training at least once/year
+  7. 98.1% agree proper IPC improves patient outcomes

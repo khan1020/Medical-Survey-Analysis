@@ -1,0 +1,1699 @@
+<!DOCTYPE html>
+<html lang="en" style="scroll-behavior: smooth;">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Knowledge, Practices, and Challenges of Infection Prevention and Control Among Nurses in Tertiary Healthcare
+        Settings</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,400&family=Source+Sans+3:wght@300;400;600;700&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Merriweather', Georgia, serif;
+            font-size: 12pt;
+            line-height: 1.8;
+            color: #1a1a1a;
+            background: #f5f5f0;
+        }
+
+        .paper {
+            max-width: 850px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 60px 70px;
+            box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+        }
+
+        /* ── Title Page ── */
+        .title-page {
+            text-align: center;
+            padding: 40px 0 30px;
+            border-bottom: 3px double #333;
+            margin-bottom: 30px;
+        }
+
+        .title-page h1 {
+            font-size: 20pt;
+            font-weight: 700;
+            line-height: 1.3;
+            color: #1a1a1a;
+            margin-bottom: 25px;
+        }
+
+        .authors {
+            font-family: 'Source Sans 3', sans-serif;
+            font-size: 11pt;
+            color: #444;
+            margin-bottom: 8px;
+        }
+
+        .affiliation {
+            font-family: 'Source Sans 3', sans-serif;
+            font-size: 10pt;
+            color: #666;
+            font-style: italic;
+            margin-bottom: 6px;
+        }
+
+        .correspondence {
+            font-family: 'Source Sans 3', sans-serif;
+            font-size: 9.5pt;
+            color: #666;
+            margin-top: 12px;
+        }
+
+        /* ── Abstract ── */
+        .abstract {
+            background: #f9f9f6;
+            border-left: 4px solid #2E86AB;
+            padding: 20px 25px;
+            margin: 25px 0;
+        }
+
+        .abstract h2 {
+            font-size: 13pt;
+            font-weight: 700;
+            color: #2E86AB;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .abstract p {
+            font-size: 10.5pt;
+            line-height: 1.7;
+            text-align: justify;
+        }
+
+        .keywords {
+            font-family: 'Source Sans 3', sans-serif;
+            font-size: 10pt;
+            margin-top: 12px;
+            color: #444;
+        }
+
+        .keywords strong {
+            color: #2E86AB;
+        }
+
+        /* ── Headings ── */
+        h2 {
+            font-size: 14pt;
+            font-weight: 700;
+            color: #1a1a1a;
+            margin-top: 30px;
+            margin-bottom: 12px;
+            padding-bottom: 6px;
+            border-bottom: 1.5px solid #ddd;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        h3 {
+            font-size: 12pt;
+            font-weight: 700;
+            color: #333;
+            margin-top: 20px;
+            margin-bottom: 8px;
+        }
+
+        /* ── Body Text ── */
+        p {
+            text-align: justify;
+            margin-bottom: 12px;
+            font-size: 11pt;
+        }
+
+        sup {
+            font-size: 8pt;
+            color: #2E86AB;
+            font-weight: 600;
+        }
+
+        /* ── Tables ── */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 18px 0;
+            font-family: 'Source Sans 3', sans-serif;
+            font-size: 10pt;
+        }
+
+        table caption {
+            font-weight: 700;
+            font-size: 10.5pt;
+            margin-bottom: 8px;
+            text-align: left;
+            color: #333;
+        }
+
+        thead th {
+            background: #2E86AB;
+            color: #fff;
+            padding: 8px 10px;
+            text-align: left;
+            font-weight: 600;
+            font-size: 9.5pt;
+        }
+
+        tbody td {
+            padding: 7px 10px;
+            border-bottom: 1px solid #e8e8e8;
+        }
+
+        tbody tr:nth-child(even) {
+            background: #f9f9f6;
+        }
+
+        tbody tr:hover {
+            background: #eef5fa;
+        }
+
+        .table-note {
+            font-size: 9pt;
+            color: #666;
+            font-style: italic;
+            margin-top: 4px;
+        }
+
+        /* ── Figures ── */
+        .figure {
+            text-align: center;
+            margin: 25px 0;
+            page-break-inside: avoid;
+        }
+
+        .figure img {
+            max-width: 100%;
+            height: auto;
+            border: 1px solid #e0e0e0;
+            border-radius: 4px;
+        }
+
+        .figure figcaption {
+            font-family: 'Source Sans 3', sans-serif;
+            font-size: 10pt;
+            color: #555;
+            margin-top: 8px;
+            font-style: italic;
+        }
+
+        /* ── Lists ── */
+        ol,
+        ul {
+            margin: 10px 0 10px 25px;
+            font-size: 11pt;
+        }
+
+        li {
+            margin-bottom: 6px;
+        }
+
+        /* ── References ── */
+        .references {
+            font-family: 'Source Sans 3', sans-serif;
+            font-size: 9.5pt;
+            line-height: 1.6;
+        }
+
+        .references ol {
+            margin-left: 20px;
+        }
+
+        .references li {
+            margin-bottom: 8px;
+            text-align: justify;
+        }
+
+        /* ── Metadata Bar ── */
+        .meta-bar {
+            display: flex;
+            justify-content: space-between;
+            font-family: 'Source Sans 3', sans-serif;
+            font-size: 9pt;
+            color: #888;
+            border-top: 1px solid #ddd;
+            padding-top: 15px;
+            margin-top: 40px;
+        }
+
+        /* ── Highlight Box ── */
+        .highlight-box {
+            background: linear-gradient(135deg, #f0f7fa, #e8f4f8);
+            border: 1px solid #b8d8e8;
+            border-radius: 6px;
+            padding: 15px 20px;
+            margin: 18px 0;
+        }
+
+        .highlight-box h4 {
+            color: #2E86AB;
+            font-size: 10.5pt;
+            margin-bottom: 6px;
+        }
+
+        .highlight-box ul {
+            font-size: 10pt;
+            margin-left: 15px;
+        }
+
+
+
+        /* ── Table of Contents ── */
+        .toc {
+            background: #f9f9f6;
+            border: 1px solid #e0e0e0;
+            border-radius: 6px;
+            padding: 20px 30px;
+            margin: 25px 0;
+            page-break-after: always;
+        }
+
+        .toc h2 {
+            font-size: 14pt;
+            color: #1a1a1a;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #2E86AB;
+            padding-bottom: 8px;
+            text-align: center;
+        }
+
+        .toc ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .toc>ul>li {
+            margin-bottom: 8px;
+            font-family: 'Source Sans 3', sans-serif;
+            font-size: 11pt;
+        }
+
+        .toc>ul>li>a {
+            color: #1a1a1a;
+            text-decoration: none;
+            font-weight: 600;
+            display: block;
+            padding: 4px 0;
+            border-bottom: 1px dotted #ccc;
+        }
+
+        .toc>ul>li>a:hover {
+            color: #2E86AB;
+        }
+
+        .toc ul ul {
+            margin-left: 25px;
+            margin-top: 4px;
+        }
+
+        .toc ul ul li {
+            margin-bottom: 3px;
+            font-size: 10pt;
+            font-weight: 400;
+        }
+
+        .toc ul ul li a {
+            color: #555;
+            text-decoration: none;
+        }
+
+        .toc ul ul li a:hover {
+            color: #2E86AB;
+            text-decoration: underline;
+        }
+
+        /* ── Citation Links ── */
+        sup a {
+            color: #2E86AB;
+            text-decoration: none;
+            font-weight: 600;
+            cursor: pointer;
+            transition: color 0.2s;
+        }
+
+        sup a:hover {
+            color: #1a5c7a;
+            text-decoration: underline;
+        }
+
+        .references li:target {
+            background: #fff3cd;
+            padding: 4px 8px;
+            border-radius: 4px;
+            transition: background 0.3s;
+        }
+
+        .ref-back {
+            color: #2E86AB;
+            text-decoration: none;
+            font-size: 10pt;
+            margin-left: 4px;
+        }
+
+        .ref-back:hover {
+            text-decoration: underline;
+        }
+
+        /* ── Front Matter Pages ── */
+        .front-page {
+            page-break-after: always;
+            break-after: always;
+            min-height: 85vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        .front-page.top-aligned {
+            justify-content: flex-start;
+            text-align: left;
+            padding-top: 40px;
+        }
+
+        .title-page-formal {
+            border-bottom: none;
+        }
+
+        .title-page-formal .logo-container {
+            margin-bottom: 25px;
+        }
+
+        .title-page-formal .logo-container img {
+            width: 150px;
+            height: auto;
+        }
+
+        .title-page-formal .college-name {
+            font-family: 'Merriweather', Georgia, serif;
+            font-size: 16pt;
+            font-weight: 700;
+            color: #1a1a1a;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            margin-bottom: 30px;
+            line-height: 1.4;
+        }
+
+        .title-page-formal .paper-title {
+            font-family: 'Merriweather', Georgia, serif;
+            font-size: 16pt;
+            font-weight: 700;
+            color: #1a1a1a;
+            line-height: 1.4;
+            margin-bottom: 8px;
+            text-transform: uppercase;
+        }
+
+        .title-page-formal .paper-subtitle {
+            font-family: 'Source Sans 3', sans-serif;
+            font-size: 11pt;
+            color: #444;
+            font-style: italic;
+            margin-bottom: 35px;
+        }
+
+        .title-page-formal .submitted-info {
+            font-family: 'Source Sans 3', sans-serif;
+            font-size: 11pt;
+            color: #333;
+            line-height: 1.8;
+            margin-bottom: 10px;
+        }
+
+        .title-page-formal .submitted-info .label {
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-size: 10pt;
+            color: #555;
+            display: block;
+            margin-top: 18px;
+            margin-bottom: 4px;
+        }
+
+        .title-page-formal .submitted-info .value {
+            font-size: 13pt;
+            font-weight: 700;
+            color: #1a1a1a;
+            display: block;
+        }
+
+        .title-page-formal .submitted-info .sub-value {
+            font-size: 10pt;
+            color: #555;
+            display: block;
+        }
+
+        .title-page-formal .college-footer {
+            margin-top: 35px;
+            padding-top: 15px;
+            border-top: 2px solid #333;
+            font-family: 'Merriweather', Georgia, serif;
+            font-size: 11pt;
+            font-weight: 700;
+            color: #1a1a1a;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        /* Dedication Page */
+        .dedication-page h2 {
+            font-size: 18pt;
+            font-weight: 700;
+            color: #1a1a1a;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 30px;
+            border-bottom: 2px solid #333;
+            padding-bottom: 10px;
+        }
+
+        .dedication-page .dedication-text {
+            font-family: 'Merriweather', Georgia, serif;
+            font-size: 12pt;
+            line-height: 2;
+            color: #333;
+            max-width: 550px;
+            text-align: center;
+            font-style: italic;
+        }
+
+        /* Acknowledgement Page */
+        .acknowledgement-page h2 {
+            font-size: 18pt;
+            font-weight: 700;
+            color: #1a1a1a;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 25px;
+            border-bottom: 2px solid #333;
+            padding-bottom: 10px;
+            text-align: center;
+        }
+
+        .acknowledgement-page .ack-text {
+            font-family: 'Merriweather', Georgia, serif;
+            font-size: 11pt;
+            line-height: 2;
+            color: #333;
+            text-align: justify;
+        }
+
+        /* Declaration Page */
+        .declaration-page h2,
+        .certificate-page h2 {
+            font-size: 18pt;
+            font-weight: 700;
+            color: #1a1a1a;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 25px;
+            border-bottom: 2px solid #333;
+            padding-bottom: 10px;
+            text-align: center;
+        }
+
+        .declaration-page .decl-text,
+        .certificate-page .cert-text {
+            font-family: 'Merriweather', Georgia, serif;
+            font-size: 11pt;
+            line-height: 2;
+            color: #333;
+            text-align: justify;
+        }
+
+        .signature-block {
+            margin-top: 40px;
+            font-family: 'Source Sans 3', sans-serif;
+            font-size: 11pt;
+            color: #333;
+            line-height: 1.8;
+        }
+
+        .signature-block .sig-label {
+            font-weight: 600;
+        }
+
+        .signature-block .sig-line {
+            display: inline-block;
+            width: 200px;
+            border-bottom: 1px solid #333;
+            margin-left: 10px;
+        }
+
+        /* ── Print ── */
+        @media print {
+            @page {
+                margin: 1in;
+            }
+            body {
+                background: white;
+                font-size: 11pt;
+            }
+
+            .paper {
+                box-shadow: none;
+                padding: 0;
+                margin: 0;
+                max-width: auto;
+            }
+            
+            p {
+                text-align: justify;
+                hyphens: auto;
+            }
+
+
+            .front-page {
+                min-height: 90vh;
+                page-break-after: always;
+                break-after: always;
+                page-break-inside: avoid;
+                break-inside: avoid;
+            }
+
+            /* Prevent page breaks inside these elements */
+            .figure,
+            table,
+            thead,
+            tbody tr,
+            .abstract,
+            .highlight-box,
+            .additional-sections h3,
+            .additional-sections p,
+            blockquote {
+                page-break-inside: avoid;
+                break-inside: avoid;
+            }
+
+            /* Keep headings attached to the content after them */
+            h2,
+            h3,
+            h4 {
+                page-break-after: avoid;
+                break-after: avoid;
+                page-break-inside: avoid;
+                break-inside: avoid;
+            }
+
+            /* Force page break before major sections */
+            h2 {
+                page-break-before: always;
+                break-before: always;
+            }
+
+            /* Don't break before the very first h2 (Abstract) */
+            .abstract h2 {
+                page-break-before: avoid;
+                break-before: avoid;
+            }
+
+            /* Keep paragraphs together (orphans/widows) */
+            p {
+                orphans: 3;
+                widows: 3;
+            }
+
+            /* Keep table caption with its table */
+            caption {
+                page-break-after: avoid;
+                break-after: avoid;
+            }
+
+            /* Keep figcaption with its figure */
+            figcaption {
+                page-break-before: avoid;
+                break-before: avoid;
+            }
+
+            /* Title page never breaks */
+            .title-page {
+                page-break-inside: avoid;
+                break-inside: avoid;
+                page-break-after: always;
+                break-after: always;
+            }
+
+            /* References list items stay together */
+            .references li {
+                page-break-inside: avoid;
+                break-inside: avoid;
+            }
+
+            /* Hide hover/interactive styles */
+            sup a {
+                color: #2E86AB !important;
+                text-decoration: none !important;
+            }
+
+            /* Make images fit on page */
+            .figure img {
+                max-height: 45vh;
+                width: auto;
+                max-width: 100%;
+            }
+        }
+    
+        /* Extra Print Layout Handling for Tables and Figures */
+        table, .figure, figure, img, tr, tbody tr, thead {
+            page-break-inside: avoid !important;
+            break-inside: avoid !important;
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            page-break-after: avoid !important;
+            break-after: avoid !important;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="paper">
+
+        <!-- ══════════════════════════════════════════════ -->
+        <!--              TITLE PAGE (FORMAL)              -->
+        <!-- ══════════════════════════════════════════════ -->
+        <div class="front-page title-page-formal">
+            <div class="logo-container">
+                <img src="logo-removebg-preview.png" alt="Liaquat College of Nursing Logo">
+            </div>
+            <div class="college-name">
+                Liaquat College of Nursing Female, Jamshoro
+            </div>
+            <div class="paper-title">
+                Knowledge, Practices, and Challenges of Infection Prevention and Control Among Nurses in Tertiary
+                Healthcare Settings
+            </div>
+            <div class="paper-subtitle">
+                A Descriptive Cross-Sectional Study
+            </div>
+            <div class="submitted-info">
+                <span class="label">Submitted By</span>
+                <span class="value">TASLEEM d/o Mohammed Ali Rind</span>
+                <span class="sub-value">BS Nursing (Batch 2022–2025)</span>
+
+                <span class="label">Supervisor</span>
+                <span class="value">Mr. GOBIND RAI</span>
+                <span class="sub-value">MSN</span>
+            </div>
+            <div class="college-footer">
+                Liaquat College of Nursing Female, Jamshoro
+            </div>
+        </div>
+
+        <!-- ══════════════════════════════════════════════ -->
+        <!--              DECLARATION PAGE                 -->
+        <!-- ══════════════════════════════════════════════ -->
+        <div class="front-page top-aligned declaration-page">
+            <h2>Declaration</h2>
+            <p class="decl-text">
+                I, <strong>Tasleem d/o Mohammed Ali Rind</strong>, hereby declare that the dissertation topic
+                <em>"Knowledge, Practices, and
+                    Challenges of Infection Prevention and Control Among Nurses in Tertiary Healthcare Settings"</em>,
+                which I submitted is entirely the result of my own work. Every effort is made to indicate this clearly,
+                with due reference to the literature. The contents of the thesis, in full or parts, have not been
+                submitted to any other Institute or University for the award of any other degree or diploma.
+            </p>
+            <p class="decl-text">
+                The work was done under the supervision and guidance of <strong>Sir Gobind Rai</strong>.
+            </p>
+            <div class="signature-block">
+                <p><span class="sig-label">Place:</span> Liaquat College Of Nursing Female, Jamshoro</p>
+                <p><span class="sig-label">Date:</span> <span class="sig-line"></span></p>
+                <br>
+                <p><span class="sig-label">Name:</span> <strong>TASLEEM</strong></p>
+                <p><span class="sig-label">Signature:</span> <span class="sig-line"></span></p>
+            </div>
+        </div>
+
+        <!-- ══════════════════════════════════════════════ -->
+        <!--              CERTIFICATE PAGE                 -->
+        <!-- ══════════════════════════════════════════════ -->
+        <div class="front-page top-aligned certificate-page">
+            <h2>Certificate</h2>
+            <p class="cert-text">
+                This is to certify that <strong>Tasleem</strong> has completed this research work titled <em>"Knowledge,
+                    Practices, and Challenges of Infection Prevention and Control Among Nurses in Tertiary Healthcare
+                    Settings"</em> as a research scholar under my supervision and guidance for the partial fulfillment
+                of the requirement of the regulations laid down for the degree of Bachelor of Science in Nursing at
+                Liaquat College Of Nursing Female, Jamshoro.
+            </p>
+            <div class="signature-block" style="margin-top: 60px;">
+                <p><span class="sig-label">Supervisor's Name:</span></p>
+                <br>
+                <p style="font-size: 14pt; font-weight: 700;">Gobind Rai</p>
+                <p><span class="sig-label">Signature:</span> <span class="sig-line"></span></p>
+            </div>
+        </div>
+
+        <!-- ══════════════════════════════════════════════ -->
+        <!--               DEDICATION PAGE                 -->
+        <!-- ══════════════════════════════════════════════ -->
+        <div class="front-page dedication-page">
+            <h2>Dedication</h2>
+            <div class="dedication-text">
+                In the name of <strong>ALMIGHTY ALLAH</strong>, the Most Gracious, the Most Merciful, whose infinite
+                blessings and divine guidance illuminated every step of this journey.
+                <br><br>
+                To my beloved <strong>parents</strong>, whose endless sacrifices, heartfelt prayers, and unconditional
+                love have been the foundation of everything I have achieved. Whatever I am today is because of you.
+                <br><br>
+                And to my beloved fiancé, <strong>Afzal Khan</strong>, whose unwavering love, patience, and constant
+                encouragement gave me the strength to persevere through every challenge.
+            </div>
+        </div>
+
+        <!-- ══════════════════════════════════════════════ -->
+        <!--            ACKNOWLEDGEMENT PAGE               -->
+        <!-- ══════════════════════════════════════════════ -->
+        <div class="front-page top-aligned acknowledgement-page">
+            <h2>Acknowledgement</h2>
+            <p class="ack-text">
+                All praises and thanks are due to <strong>Almighty Allah</strong>, the Most Beneficent and the Most
+                Merciful, who bestowed upon me the wisdom, strength, and determination to complete this research work
+                successfully.
+            </p>
+            <p class="ack-text">
+                I would like to express my deepest and most heartfelt gratitude to my esteemed supervisor, <strong>Sir
+                    Gobind Rai</strong> (MSN), whose exceptional mentorship, profound knowledge, and tireless dedication
+                have been the guiding light throughout this entire research journey. His scholarly expertise, insightful
+                feedback, and remarkable patience at every stage of this thesis — from the initial concept to the final
+                manuscript — were truly invaluable. It was his constant encouragement, constructive criticism, and
+                unwavering belief in my abilities that made the successful completion of this work possible. I consider
+                myself truly fortunate to have worked under the supervision of such a distinguished and inspiring
+                mentor.
+            </p>
+            <p class="ack-text">
+                I owe a deep debt of gratitude to my loving <strong>parents</strong>, whose prayers, sacrifices, and
+                unwavering moral support have been my greatest strength. I am equally grateful to all the
+                <strong>participants</strong> and the nursing staff of LUMHS Jamshoro and Hyderabad campuses for their
+                voluntary participation and cooperation during data collection, without which this study would not have
+                been possible.
+            </p>
+            <p class="ack-text">
+                Special thanks to <strong>Mr. Afzal Khan</strong>, BS Computer Science (University of Sindh, Jamshoro),
+                for his valuable technical assistance with statistical analysis and manuscript preparation.
+            </p>
+            <p class="ack-text">
+                Lastly, I am sincerely thankful to all my dear <strong>friends</strong> and
+                <strong>well-wishers</strong> who stood by me, encouraged me, and believed in me at every step of this
+                journey. May Allah bless you all.
+            </p>
+        </div>
+
+        <!-- ══════════════════════════════════════════════ -->
+        <!--                  ABSTRACT                     -->
+        <!-- ══════════════════════════════════════════════ -->
+        <div class="abstract">
+            <h2 id="abstract">Abstract</h2>
+            <p><strong>Background:</strong> Hospital-acquired infections (HAIs) are a massive burden on healthcare facilities globally. Since nurses are constantly at the bedside, they act as the primary defense line for infection prevention and control (IPC). Yet, across Pakistan, we keep seeing a disconnect between what nurses know and what they actually do on the ward.</p>
+            <p><strong>Objective:</strong> We wanted to figure out the real level of knowledge, daily practices, and institutional roadblocks tied to infection control among the nursing staff at Liaquat University of Medical &amp; Health Sciences (LUMHS) in Jamshoro and Hyderabad.</p>
+            <p><strong>Methods:</strong> We ran a descriptive cross-sectional survey involving 103 LUMHS nurses. They filled out a 15-item questionnaire covering what they knew, what they practiced, and what was stopping them. We then crunched the numbers in SPSS 23, looking at basic frequencies and running chi-square tests to spot correlations.</p>
+            <p><strong>Results:</strong> Most of our nurses were female (61.2%), firmly in their mid-to-late twenties (46.6%), and had a BSN degree (67.0%). They scored reasonably well on knowledge, averaging 3.61 out of 5, which means about 60.2% had a solid grasp of the basics. Practice scores looked even better on paper (mean 7.31/9, 73.8% "good practice"). But down in the details, we found some startling issues: half (50.5%) genuinely thought plain clean water could kill microbes. Roughly 30.1% admitted to touching body fluids without wearing gloves, and 28.2% hadn't been to an IPC workshop in over a year. Demographics like age and gender didn't really swing the results (p&gt;0.05).</p>
+            <p><strong>Conclusion:</strong> Overall, the nurses know what they are supposed to do, but putting it into practice is hit or miss. The biggest hurdles aren't related to individual ignorance—they are systemic. Fixing things like irregular training, hidden guidelines, and empty glove boxes will probably do much more good than just another lecture on hand-washing.</p>
+            <div class="keywords">
+                <strong>Keywords:</strong> Infection control, nurses, healthcare-associated infections, hand hygiene,
+                personal protective equipment, nosocomial infections, tertiary hospital, Pakistan
+            </div>
+        </div>
+        </div>
+
+
+        <!-- ══════════════════════════════════════════════ -->
+        <!--             TABLE OF CONTENTS                 -->
+        <!-- ══════════════════════════════════════════════ -->
+        <div class="toc">
+            <h2>Table of Contents</h2>
+            <ul>
+                <li><a href="#abstract">Abstract</a></li>
+                <li><a href="#introduction">1. Introduction</a>
+                    <ul>
+                        <li><a href="#gaps">1.1 Gaps in Current Research</a></li>
+                        <li><a href="#objectives">1.2 Study Objectives</a></li>
+                    </ul>
+                </li>
+                <li><a href="#literature">2. Review of Related Literature</a>
+                    <ul>
+                        <li><a href="#synthesis">2.1 Synthesis of Evidence</a></li>
+                    </ul>
+                </li>
+                <li><a href="#methodology">3. Materials and Methods</a>
+                    <ul>
+                        <li><a href="#design">3.1 Study Design</a></li>
+                        <li><a href="#setting">3.2 Study Setting and Duration</a></li>
+                        <li><a href="#sample">3.3 Sample Size Calculation</a></li>
+                        <li><a href="#sampling">3.4 Sampling Method</a></li>
+                        <li><a href="#criteria">3.5 Inclusion and Exclusion Criteria</a></li>
+                        <li><a href="#instrument">3.6 Data Collection Instrument</a></li>
+                        <li><a href="#procedure">3.7 Data Collection Procedure</a></li>
+                        <li><a href="#ethics">3.8 Ethical Considerations</a></li>
+                        <li><a href="#analysis">3.9 Data Analysis</a></li>
+                    </ul>
+                </li>
+                <li><a href="#results">4. Results</a>
+                    <ul>
+                        <li><a href="#demographics">4.1 Demographic Characteristics</a></li>
+                        <li><a href="#knowledge">4.2 Knowledge Assessment</a></li>
+                        <li><a href="#practice">4.3 Practice Assessment</a></li>
+                        <li><a href="#barriers">4.4 Barriers to Infection Control</a></li>
+                        <li><a href="#scores">4.5 Overall Knowledge and Practice Scores</a></li>
+                        <li><a href="#chisquare">4.6 Chi-Square Analysis</a></li>
+                    </ul>
+                </li>
+                <li><a href="#discussion">5. Discussion</a>
+                    <ul>
+                        <li><a href="#disc-knowledge">5.1 Knowledge Assessment</a></li>
+                        <li><a href="#disc-practice">5.2 Practice Assessment</a></li>
+                        <li><a href="#disc-barriers">5.3 Barriers Analysis</a></li>
+                        <li><a href="#disc-intl">5.4 Comparison with International Literature</a></li>
+                        <li><a href="#limitations">5.5 Limitations</a></li>
+                    </ul>
+                </li>
+                <li><a href="#conclusion">6. Conclusion</a>
+                    <ul>
+                        <li><a href="#recommendations">6.1 Recommendations</a></li>
+                    </ul>
+                </li>
+                <li><a href="#references">References</a></li>
+            </ul>
+        </div>
+
+        <!-- ══════════════════════════════════════════════ -->
+        <!--               INTRODUCTION                    -->
+        <!-- ══════════════════════════════════════════════ -->
+        <h2 id="introduction">1. Introduction</h2>
+
+        <p>Nobody wants to go to the hospital and leave sicker than when they arrived. Yet, hospital-acquired infections (HAIs) are a massive, ongoing crisis worldwide. When patients pick up a new bug during treatment, everything gets worse—recoveries stall, hospital stays stretch on, and medical bills pile up. Because nurses are the ones stationed at the bedside around the clock, they are right in the line of fire for capturing and transmitting these infections.<sup>[<a href="#ref1" title="Reference 1">1</a>]</sup> This risk spikes dramatically in tertiary care centers. Think about it: you have wards packed with immunocompromised patients, lines and tubes everywhere, and constant foot traffic. It's essentially the perfect storm for bugs to spread.<sup>[<a href="#ref2" title="Reference 2">2</a>]</sup></p>
+
+        <p>We know exactly how to stop this. According to the World Health Organization, plain old hand hygiene is still the absolute best tool we have to block HAIs.<sup>[<a href="#ref3" title="Reference 3">3</a>]</sup> You pair that with proper masks and gowns, safe needle disposal, and sterile equipment, and infection rates plummet.<sup>[<a href="#ref4" title="Reference 4">4</a>]</sup> But knowing the rules and following them are two very different things. The reality on the ground—especially in under-funded, resource-strapped hospitals—is that staff often miss the mark on these golden standards.<sup>[<a href="#ref5" title="Reference 5">5</a>]</sup></p>
+
+        <p>Time and again, research turns up the same frustrating pattern: a massive gap between what nurses know they should do, and what they actually do during a chaotic shift.<sup>[<a href="#ref1" title="Reference 1">1</a>,<a href="#ref4" title="Reference 4">4</a>,<a href="#ref6" title="Reference 6">6</a>]</sup> A nurse can easily check the right boxes on a protocol exam, while quietly admitting that they skip steps on the ward. Why? The usual suspects: terrible workloads, chronic supply shortages, and a lack of ongoing training.<sup>[<a href="#ref7" title="Reference 7">7</a>,<a href="#ref8" title="Reference 8">8</a>]</sup></p>
+
+        <p>In Pakistan, these challenges hit even harder. The public healthcare system is overwhelmed. Wards are overcrowded, and you frequently see just a handful of nurses managing dozens of patients. Protective supplies run out mid-shift, and administrative oversight is often sketchy at best.<sup>[<a href="#ref2" title="Reference 2">2</a>,<a href="#ref5" title="Reference 5">5</a>]</sup> Picture a nurse grinding through a 12-hour shift, juggling double the normal patient load, staring at an empty glove box, with no manager in sight. That's a universe away from the pristine, controlled clinics where international guidelines are drafted. Given that tertiary hospitals deal with the absolute sickest patients in the country, one slip-up can be disastrous. Despite this, we still have very little targeted research looking into these specific high-stakes environments in Pakistan.</p>
+
+        <h3 id="gaps">1.1 Gaps in Current Research</h3>
+
+        <p>While local studies do confirm that Pakistani nurses struggle to match their actions to their knowledge, there are still some glaring blind spots. Most papers treat "knowledge" and "practice" as two separate scores, rarely digging into the actual roadblocks standing in the nurses' way.<sup>[<a href="#ref1" title="Reference 1">1</a>,<a href="#ref2" title="Reference 2">2</a>,<a href="#ref3" title="Reference 3">3</a>,<a href="#ref4" title="Reference 4">4</a>,<a href="#ref5" title="Reference 5">5</a>]</sup> Plus, nearly everyone relies on self-reported surveys. Naturally, people want to look good on paper, so we are probably seeing inflated compliance rates. Very few researchers are actually standing there to observe what happens.</p>
+
+        <p>Tertiary teaching hospitals are also slipping through the cracks. These massive centers take on regional referrals and house massive ICUs where infection risks hit the ceiling. We still don't fully know if the hurdles here are completely different from a rural district hospital. Most critically, researchers tend to treat things like "broken sinks" or "empty supply closets" as minor background noise rather than the primary culprit. When the WHO manual assumes you always have running water and endless sterile gloves, how is a resource-starved nurse actually supposed to prioritize their tasks?</p>
+
+        <h3 id="objectives">1.2 Study Objectives</h3>
+        <p>This research examines infection control among nurses in tertiary care settings through four objectives:</p>
+        <ol>
+            <li>Assess current knowledge levels regarding infection prevention protocols</li>
+            <li>Evaluate reported infection control practices during patient care</li>
+            <li>Identify institutional, environmental, and individual barriers impeding adherence</li>
+            <li>Analyze relationships between demographics, knowledge, practices, and barriers</li>
+        </ol>
+
+        <!-- ══════════════════════════════════════════════ -->
+        <!--            LITERATURE REVIEW                  -->
+        <!-- ══════════════════════════════════════════════ -->
+        <h2 id="literature">2. Review of Related Literature</h2>
+
+        <p>When you look back at recent local research, a very distinct pattern emerges. Take Khowaja's team, for instance, who surveyed 30 nurses over at the Liaquat Institute in Thatta.<sup>[<a href="#ref1" title="Reference 1">1</a>]</sup> Their findings were pretty clear: the nurses understood the core concepts of infection control perfectly well, but their day-to-day compliance missed the mark. The usual suspects took the blame—not enough continuing education and constantly empty supply closets. What they didn't really figure out, though, was the nuance. If you miraculously stocked the hospital with endless gloves, would compliance actually jump? Or is the issue deeper than that?</p>
+
+        <p>Over in Baluchistan, Batool and her colleagues looked at a much larger group—138 nurses stationed across two major Quetta hospitals.<sup>[<a href="#ref2" title="Reference 2">2</a>]</sup> They found some worrying gaps in basic hand hygiene, though oddly, almost everyone claimed to use gloves (99.3%) and masks (97.8%). Interestingly, they looked into attitudes too. Most nurses felt that catching a cold meant you shouldn't step foot on the ward, and over three-quarters admitted that local cultural habits speed up the spread of disease. A major takeaway here was the total lack of oversight; poor sanitation and absent ward managers were devastating factors. Interestingly enough, things like age or years on the job made virtually zero difference to how safely someone practiced (p&gt;0.05).</p>
+
+        <p>Meanwhile, Kousar's research at Aziz Bhatti Shaheed Hospital in Gujrat found a similar "know-do" gap.<sup>[<a href="#ref3" title="Reference 3">3</a>]</sup> They used the Health Belief Model to unpick why aware nurses still tripped up. Their big push was for dedicated infection control committees. They also found a gender split—female nurses scored significantly higher on knowing when to use antiseptics, use an autoclave, and wash their hands. The catch? The study kind of assumed that hospital committees actually wield power in public Pakistani wards, which isn't always reality.</p>
+
+        <p>Right next door in Hyderabad, Soomro's team checked on 60 nurses at Isra University Hospital.<sup>[<a href="#ref4" title="Reference 4">4</a>]</sup> The basics looked great—85% routine hand hygiene. But when the stakes got higher, compliance plummeted. Barely half the staff (56.7%) bothered to wear gowns or contact gear when explicitly required, and shockingly, mostly everyone skipped gloves when drawing blood (only 45% complied). It paints a picture of staff handling the easy, routine stuff fine, but dropping the ball entirely during specialized procedures.</p>
+
+        <p>Perhaps the most eye-opening piece of evidence comes from Baqar's observational work in Khairpur with 111 nurses.<sup>[<a href="#ref5" title="Reference 5">5</a>]</sup> Surveys are one thing, but actually watching people work tells another story. While 88.3% of the nurses confidently stated that staff need vaccinations, two-thirds of them were actively recapping dirty needles—a massive hazard. Because Baqar directly observed the staff, the truth came out: actual handwashing compliance before an aseptic task was effectively zero (0.9%), and only 19.8% washed up after pulling off gloves. It proved that self-reported surveys are incredibly biased. Much like Kousar, Baqar found that female staff were far stricter with protocol (p=0.000) than their male counterparts.</p>
+
+        <h3 id="synthesis">2.1 Synthesis of Evidence</h3>
+
+        <p>When you stack these five studies together, the narrative is completely unanimous. Pakistani nurses know what to do. They can rattle off the protocols. But walk into almost any ward—whether in Quetta, Gujrat, or Khairpur—and the actual practice on the floor is desperately lagging behind. Everyone points the finger at the same few culprits: crushing workloads, zero resources, and missing training. Yet almost no one has tried to figure out which of those hurdles is the most damaging. Worse still, because nearly every paper relies on nurses self-reporting their own good behavior, the data is heavily padded. As Baqar's sneaky observations forcefully proved, what nurses say they do is vastly different from what happens at 2 AM on a chaotic shift.<sup>[<a href="#ref5" title="Reference 5">5</a>]</sup></p>
+
+        <p>This is exactly why the current study matters. By digging into the tertiary setup at LUMHS, we are trying to drag those institutional background barriers into the foreground to see exactly what is crippling our nursing staff's ability to protect their patients.</p>
+
+        <!-- ══════════════════════════════════════════════ -->
+        <!--              METHODOLOGY                      -->
+        <!-- ══════════════════════════════════════════════ -->
+        <h2 id="methodology">3. Materials and Methods</h2>
+
+        <h3 id="design">3.1 Study Design</h3>
+        <p>We set this up as a descriptive cross-sectional study. Essentially, we wanted a snapshot of what LUMHS nurses knew about infection prevention, what their actual daily practices looked like, and what roadblocks were stopping them from doing their jobs properly.</p>
+
+        <h3 id="setting">3.2 Study Setting and Duration</h3>
+        <p>The research took place at Liaquat University of Medical &amp; Health Sciences (LUMHS), covering both the main Jamshoro campus hospital and the Hyderabad branch. We hit the ground running for data collection between January and February 2026. Since LUMHS is a massive public sector tertiary teaching hospital, we were able to pull nurses from everywhere—Medicine, Surgery, ER, Pediatrics, the ICUs, Cardiology, Gynecology, and the Operation Theaters.</p>
+
+        <h3 id="sample">3.3 Sample Size Calculation</h3>
+        <p>To figure out exactly how many people we needed to talk to, we used Slovin's formula:</p>
+        <p style="text-align:center; font-style:italic; font-size:12pt; margin:15px 0;"><strong>n = N / (1 + N × e²)</strong></p>
+        <p>With a total nursing population (N) hovering around 140 across the two hospital campuses, and plugging in a standard 5% margin of error (e = 0.05), the math looked like this: 140 / (1 + 140 × 0.0025) = 140 / 1.35. That gave us an ideal target of roughly <strong>103 participants</strong>.</p>
+
+        <h3 id="sampling">3.4 Sampling Method</h3>
+        <p>We went with convenience sampling. Given the crazy rotating shifts and heavy workloads on the wards, we basically approached whoever was on duty, available, and willing to spare a few minutes.</p>
+
+        <h3 id="criteria">3.5 Inclusion and Exclusion Criteria</h3>
+        <p><strong>Inclusion:</strong> Any registered staff nurse currently pulling shifts and handling direct patient care at LUMHS was welcome to join. <strong>Exclusion:</strong> We skipped over student nurses, interns, anyone on leave, and administrative staff who weren't working directly with patients. And obviously, anyone who was too busy or just didn't want to participate was left alone.</p>
+
+        <h3 id="instrument">3.6 Data Collection Instrument</h3>
+        <p>We put together a structured, printed questionnaire drawing heavily from WHO guidelines and previous local studies.<sup>[<a href="#ref5" title="Reference 5">5</a>,<a href="#ref9" title="Reference 9">9</a>]</sup> It was split into two straightforward parts:</p>
+
+        <p><strong>Section A (Demographics):</strong> Just the basics—five questions asking for gender, age bracket, marital status, latest nursing degree, and what department they were currently assigned to.</p>
+
+        <p><strong>Section B (Knowledge, Practice, and Barriers):</strong> This was the meat of the survey, featuring 15 items designed for quick "Yes/No/Don't Know" answers to save time. We tested their <strong>Knowledge</strong> (asking about WHO hand hygiene moments, universal precautions, and basic water disinfection facts), their <strong>Practice</strong> (if they actually wash their hands, wear PPE, and handle body fluids safely), and the <strong>Barriers</strong> holding them back (like missing guidelines, skipped annual workshops, or empty supply closets).</p>
+
+        <h3 id="procedure">3.7 Data Collection Procedure</h3>
+        <p>Instead of sending out links, we physically walked the wards during active shifts at both the Jamshoro and Hyderabad campuses. We explained the point of the study, handed out the papers, and stuck around to clear up any confusing questions. Everyone managed to finish and hand them back the very same day.</p>
+
+        <h3 id="ethics">3.8 Ethical Considerations</h3>
+        <p>We made sure to get both verbal and written consent before handing out a single survey. We promised nobody would be named or tracked, keeping all responses entirely anonymous. Participation was completely and strictly voluntary—anyone could walk away with zero consequences. We cleared everything through hospital administration and stuck to the Declaration of Helsinki rules.</p>
+
+        <h3 id="analysis">3.9 Data Analysis</h3>
+        <p>Once all the papers were back, everything was fed into IBM SPSS (Version 23). We ran basic descriptive statistics like frequencies and mean scores to get a feel for the demographics. Then, we ran Chi-square (χ²) tests to see if things like age or gender actually impacted knowledge or practice scores, keeping our significance cutoff at the standard p ≤ 0.05.</p>
+
+        <!-- ══════════════════════════════════════════════ -->
+        <!--                 RESULTS                       -->
+        <!-- ══════════════════════════════════════════════ -->
+        <h2 id="results">4. Results</h2>
+
+        <h3 id="demographics">4.1 Demographic Characteristics</h3>
+        <p>Out of all the staff we approached, 103 nurses fully completed the survey. When you break down the demographics (shown in Table 1), the nursing workforce here leans heavily female (61.2%). It's also a fairly young crowd: almost half (46.6%) are between 26 and 30 years old, and over half (53.4%) are married. As for their education, the Bachelor of Science in Nursing (BSN) is clearly the new standard, claiming 67.0% of the respondents. We managed to get a good mix of voices across the hospital since these nurses were scattered right across the various clinical departments (see Figure 4).</p>
+
+        <table>
+            <caption>Table 1: Demographic characteristics of study participants including gender, age, marital status,
+                and professional qualification distribution among nurses at LUMHS tertiary care hospital (n=103)
+            </caption>
+            <thead>
+                <tr>
+                    <th>Variable</th>
+                    <th>Category</th>
+                    <th>Frequency (n)</th>
+                    <th>Percentage (%)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="2"><strong>Gender</strong></td>
+                    <td>Male</td>
+                    <td>40</td>
+                    <td>38.8%</td>
+                </tr>
+                <tr>
+                    <td>Female</td>
+                    <td>63</td>
+                    <td>61.2%</td>
+                </tr>
+                <tr>
+                    <td rowspan="4"><strong>Age (Years)</strong></td>
+                    <td>≤25</td>
+                    <td>20</td>
+                    <td>19.4%</td>
+                </tr>
+                <tr>
+                    <td>26-30</td>
+                    <td>48</td>
+                    <td>46.6%</td>
+                </tr>
+                <tr>
+                    <td>31-40</td>
+                    <td>24</td>
+                    <td>23.3%</td>
+                </tr>
+                <tr>
+                    <td>Above 40</td>
+                    <td>11</td>
+                    <td>10.7%</td>
+                </tr>
+                <tr>
+                    <td rowspan="3"><strong>Marital Status</strong></td>
+                    <td>Single</td>
+                    <td>44</td>
+                    <td>42.7%</td>
+                </tr>
+                <tr>
+                    <td>Married</td>
+                    <td>55</td>
+                    <td>53.4%</td>
+                </tr>
+                <tr>
+                    <td>Widowed</td>
+                    <td>4</td>
+                    <td>3.9%</td>
+                </tr>
+                <tr>
+                    <td rowspan="3"><strong>Qualification</strong></td>
+                    <td>Diploma in Nursing</td>
+                    <td>29</td>
+                    <td>28.2%</td>
+                </tr>
+                <tr>
+                    <td>BSN</td>
+                    <td>69</td>
+                    <td>67.0%</td>
+                </tr>
+                <tr>
+                    <td>Post RN BSCN</td>
+                    <td>5</td>
+                    <td>4.9%</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="figure">
+            <img src="figures/fig1_gender.png" alt="Figure 1: Gender Distribution">
+            <figcaption>Figure 1: Pie chart showing gender distribution of study participants. Female nurses constituted
+                the majority (61.2%, n=63) compared to male nurses (38.8%, n=40), reflecting the gender composition
+                typical of the nursing profession at LUMHS tertiary care hospital (n=103)</figcaption>
+        </div>
+
+        <div class="figure">
+            <img src="figures/fig2_age.png" alt="Figure 2: Age Distribution">
+            <figcaption>Figure 2: Pie chart showing age distribution of participants. The largest age group was 26-30
+                years (46.6%, n=48), followed by 31-40 years (23.3%, n=24), indicating a predominantly young nursing
+                workforce at LUMHS (n=103)</figcaption>
+        </div>
+
+        <div class="figure">
+            <img src="figures/fig3_qualification.png" alt="Figure 3: Qualification Distribution">
+            <figcaption>Figure 3: Horizontal bar chart showing professional qualification distribution. BSN was the most
+                common qualification (67.0%, n=69), followed by Diploma in Nursing (28.2%, n=29) and Post RN BSCN (4.9%,
+                n=5) (n=103)</figcaption>
+        </div>
+
+        <div class="figure">
+            <img src="figures/fig8_departments.png" alt="Figure 8: Department Distribution">
+            <figcaption>Figure 4: Bar chart showing department-wise distribution of participating nurses across clinical
+                departments at LUMHS Jamshoro and Hyderabad campuses, illustrating the variety of clinical settings
+                represented in the study (n=103)</figcaption>
+        </div>
+
+        <!-- Knowledge Assessment -->
+        <h3 id="knowledge">4.2 Knowledge Assessment</h3>
+        <p>When it came to theoretical knowledge (detailed in Table 2), things looked pretty good on the surface. A full 92.2% of the nurses knew that dirty medical equipment spreads HAIs, and 78.6% could recognize the WHO Five Moments of Hand Hygiene. But when we dug a little deeper, a massive red flag popped up: <strong>half of the nurses (50.5%) genuinely believed that washing with plain, clean water is enough to destroy harmful microorganisms.</strong> On top of that, a quarter of the staff (25.2%) couldn't actually define what a nosocomial (hospital-acquired) infection is.</p>
+
+        <table>
+            <caption>Table 2: Distribution of responses to knowledge assessment items on infection prevention and
+                control, showing frequency and percentage of Yes, No, and Don't Know responses among nurses at LUMHS
+                (n=103)</caption>
+            <thead>
+                <tr>
+                    <th>Knowledge Item</th>
+                    <th>Yes n(%)</th>
+                    <th>No n(%)</th>
+                    <th>Don't Know n(%)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Q3. HAIs can be transmitted through contaminated medical equipment</td>
+                    <td>95 (92.2%)</td>
+                    <td>6 (5.8%)</td>
+                    <td>2 (1.9%)</td>
+                </tr>
+                <tr>
+                    <td>Q4. Nosocomial infection refers to infection acquired during hospital stay</td>
+                    <td>72 (69.9%)</td>
+                    <td>26 (25.2%)</td>
+                    <td>5 (4.9%)</td>
+                </tr>
+                <tr>
+                    <td>Q6. Aware of WHO Five Moments of Hand Hygiene</td>
+                    <td>81 (78.6%)</td>
+                    <td>22 (21.4%)</td>
+                    <td>0 (0.0%)</td>
+                </tr>
+                <tr>
+                    <td>Q7. All HCWs and patients should be considered potentially infectious</td>
+                    <td>74 (71.8%)</td>
+                    <td>25 (24.3%)</td>
+                    <td>4 (3.9%)</td>
+                </tr>
+                <tr>
+                    <td>Q8. Clean water alone is sufficient to destroy harmful microorganisms*</td>
+                    <td>52 (50.5%)</td>
+                    <td>48 (46.6%)</td>
+                    <td>3 (2.9%)</td>
+                </tr>
+            </tbody>
+        </table>
+        <p class="table-note">*Correct answer is "No" - only 46.6% answered correctly. This represents a critical
+            knowledge gap.</p>
+
+        <p>If we grade the knowledge section out of 5, the average score sat at <strong>3.61</strong> (SD = 1.02). That translates to roughly 62 nurses (60.2%) proving they had a solid, good grasp of infection control, while the remaining 41 (39.8%) struggled with the basics.</p>
+
+        <div class="figure">
+            <img src="figures/fig4_knowledge.png" alt="Figure 4: Knowledge Assessment">
+            <figcaption>Figure 5: Grouped bar chart showing response distribution for five knowledge assessment items.
+                Notably, 50.5% of nurses incorrectly believed clean water alone destroys microorganisms (marked with
+                asterisk), representing the most critical knowledge gap identified in the study
+                (n=103)</figcaption>
+        </div>
+
+        <!-- Practice Assessment -->
+        <h3 id="practice">4.3 Practice Assessment</h3>
+        <p>Moving over to actual habits (Table 3), the self-reported numbers were impressively high. Almost everyone (98.1%) agreed that following IPC rules saves patients' lives, and 88.3% claimed they safely washed their hands before and after dealing with every single patient. But then we asked about the messy stuff: <strong>30.1% admitted they still handle body fluids bare-handed</strong> whenever gloves run out. Another major issue? Over a quarter of the nurses (28.2%) said they hadn't been to a single infection control training or workshop in the past year.</p>
+
+        <table>
+            <caption>Table 3: Distribution of self-reported infection control practice responses among nurses, showing
+                compliance levels for each practice item including training participation, hand hygiene, PPE use, and
+                waste handling (n=103)</caption>
+            <thead>
+                <tr>
+                    <th>Practice Item</th>
+                    <th>Yes n(%)</th>
+                    <th>No n(%)</th>
+                    <th>Don't Know n(%)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Q1. Periodic IPC training conducted in department</td>
+                    <td>83 (80.6%)</td>
+                    <td>17 (16.5%)</td>
+                    <td>3 (2.9%)</td>
+                </tr>
+                <tr>
+                    <td>Q2. IC guidelines available and accessible</td>
+                    <td>77 (74.8%)</td>
+                    <td>26 (25.2%)</td>
+                    <td>0 (0.0%)</td>
+                </tr>
+                <tr>
+                    <td>Q5. Hand washing before/after every patient contact</td>
+                    <td>91 (88.3%)</td>
+                    <td>9 (8.7%)</td>
+                    <td>3 (2.9%)</td>
+                </tr>
+                <tr>
+                    <td>Q9. Body fluids never handled with bare hands</td>
+                    <td>68 (66.0%)</td>
+                    <td>31 (30.1%)</td>
+                    <td>4 (3.9%)</td>
+                </tr>
+                <tr>
+                    <td>Q11. PPE always available when needed</td>
+                    <td>89 (86.4%)</td>
+                    <td>14 (13.6%)</td>
+                    <td>0 (0.0%)</td>
+                </tr>
+                <tr>
+                    <td>Q12. Masks/eye protection during invasive procedures</td>
+                    <td>88 (85.4%)</td>
+                    <td>15 (14.6%)</td>
+                    <td>0 (0.0%)</td>
+                </tr>
+                <tr>
+                    <td>Q13. Attend IPC training at least once/year</td>
+                    <td>74 (71.8%)</td>
+                    <td>29 (28.2%)</td>
+                    <td>0 (0.0%)</td>
+                </tr>
+                <tr>
+                    <td>Q14. PPE when handling contaminated waste</td>
+                    <td>82 (79.6%)</td>
+                    <td>21 (20.4%)</td>
+                    <td>0 (0.0%)</td>
+                </tr>
+                <tr>
+                    <td>Q15. Proper IPC improves patient outcomes</td>
+                    <td>101 (98.1%)</td>
+                    <td>0 (0.0%)</td>
+                    <td>2 (1.9%)</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <p>Grading the self-reported practices out of 9, the staff averaged a <strong>7.31</strong> (SD = 1.28). This means about 73.8% (76 nurses) fell into the "good practice" zone, while 26.2% (27 nurses) were flagged for poor practice habits.</p>
+
+        <div class="figure">
+            <img src="figures/fig5_practice.png" alt="Figure 5: Practice Assessment">
+            <figcaption>Figure 6: Horizontal bar chart showing self-reported infection control practices ranked by
+                compliance level. Items are color-coded: green (good, above 85%), orange (moderate, 75-84%), and red
+                (needs improvement, below 75%). Body fluid handling without gloves (66.0%) was the lowest-scoring
+                practice item (n=103)
+            </figcaption>
+        </div>
+
+        <!-- Barriers -->
+        <h3 id="barriers">4.4 Barriers to Infection Control</h3>
+        <p>So, what's actually stopping these nurses from following protocol? We asked them directly (Table 4). The biggest hurdle, reported by <strong>28.2%</strong> of the staff, was a total lack of annual IPC training or update workshops. Closely following that was basically flying blind—25.2% said the official infection control guidelines were just nowhere to be found. It's pretty surprising that in a major tertiary teaching hospital like LUMHS, one in four nurses can't quickly grab a protocol manual when they need to check something.</p>
+
+        <table>
+            <caption>Table 4: Institutional barriers to infection control as identified by nurses, showing percentage
+                reporting each barrier based on negative responses to relevant questionnaire items (n=103)</caption>
+            <thead>
+                <tr>
+                    <th>Barrier</th>
+                    <th>% Reporting Barrier ("No")</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Lack of annual IPC training/workshops</td>
+                    <td><strong>28.2%</strong></td>
+                </tr>
+                <tr>
+                    <td>IC guidelines NOT available/accessible</td>
+                    <td><strong>25.2%</strong></td>
+                </tr>
+                <tr>
+                    <td>Inadequate personal knowledge of HAI prevention</td>
+                    <td>20.4%</td>
+                </tr>
+                <tr>
+                    <td>Periodic IPC training NOT conducted</td>
+                    <td>16.5%</td>
+                </tr>
+                <tr>
+                    <td>PPE NOT always available when needed</td>
+                    <td>13.6%</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="figure">
+            <img src="figures/fig6_barriers.png" alt="Figure 6: Barriers">
+            <figcaption>Figure 7: Bar chart showing the five main institutional barriers to infection control identified
+                by nurses. Lack of annual IPC training (28.2%) and inaccessible IC guidelines (25.2%) were the most
+                frequently reported barriers, highlighting systemic gaps in institutional support (n=103)
+            </figcaption>
+        </div>
+
+        <!-- Scores Summary -->
+        <h3 id="scores">4.5 Overall Knowledge and Practice Scores</h3>
+
+        <div class="figure">
+            <img src="figures/fig7_scores.png" alt="Figure 7: Knowledge vs Practice Scores">
+            <figcaption>Figure 8: Donut charts comparing overall knowledge and practice scores. Knowledge: 60.2% scored
+                good (4 or above out of 5, mean=3.6). Practice: 73.8% scored good (7 or above out of 9, mean=7.3). The
+                higher self-reported practice scores may reflect social desirability bias (n=103)
+            </figcaption>
+        </div>
+
+        <div class="highlight-box">
+            <h4>Key Score Summary</h4>
+            <ul>
+                <li><strong>Knowledge Score:</strong> Mean = 3.61/5 (SD = 1.02) - Good knowledge: 60.2%, Poor: 39.8%
+                </li>
+                <li><strong>Practice Score:</strong> Mean = 7.31/9 (SD = 1.28) - Good practice: 73.8%, Poor: 26.2%</li>
+                <li>Practice scores were higher than knowledge scores, likely due to self-reporting bias</li>
+            </ul>
+        </div>
+
+        <!-- Chi-Square Tests -->
+        <h3>4.6 Association Between Demographics and Responses</h3>
+
+        <p><strong>Gender:</strong> We crunched the numbers to see if men or women were better at infection control, but statistically, gender didn't change a thing (all p &gt; 0.05), which you can see in Table 5. There was one interesting blip though: it almost looked like male nurses were stricter about not touching body fluids bare-handed (77.5% vs. 58.7%), but it narrowly missed hitting statistical significance (p = 0.081).</p>
+
+        <table>
+            <caption>Table 5: Association between gender and key knowledge/practice responses using Pearson Chi-Square
+                test with Yates' correction. Statistical significance set at p &le; 0.05 (n=103; Male=40, Female=63)
+            </caption>
+            <thead>
+                <tr>
+                    <th>Item</th>
+                    <th>Male Yes%</th>
+                    <th>Female Yes%</th>
+                    <th>χ²</th>
+                    <th>p-value</th>
+                    <th>Sig</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>HAIs via contaminated equipment</td>
+                    <td>97.5%</td>
+                    <td>88.9%</td>
+                    <td>1.473</td>
+                    <td>0.225</td>
+                    <td>NS</td>
+                </tr>
+                <tr>
+                    <td>Hand washing compliance</td>
+                    <td>90.0%</td>
+                    <td>87.3%</td>
+                    <td>0.010</td>
+                    <td>0.920</td>
+                    <td>NS</td>
+                </tr>
+                <tr>
+                    <td>Body fluids without bare hands</td>
+                    <td>77.5%</td>
+                    <td>58.7%</td>
+                    <td>3.051</td>
+                    <td>0.081</td>
+                    <td>NS</td>
+                </tr>
+                <tr>
+                    <td>WHO Five Moments awareness</td>
+                    <td>77.5%</td>
+                    <td>79.4%</td>
+                    <td>0.000</td>
+                    <td>1.000</td>
+                    <td>NS</td>
+                </tr>
+                <tr>
+                    <td>PPE always available</td>
+                    <td>90.0%</td>
+                    <td>84.1%</td>
+                    <td>0.305</td>
+                    <td>0.581</td>
+                    <td>NS</td>
+                </tr>
+                <tr>
+                    <td>Attend annual training</td>
+                    <td>77.5%</td>
+                    <td>68.3%</td>
+                    <td>0.627</td>
+                    <td>0.428</td>
+                    <td>NS</td>
+                </tr>
+                <tr>
+                    <td>IPC improves outcomes</td>
+                    <td>97.5%</td>
+                    <td>98.4%</td>
+                    <td>0.000</td>
+                    <td>1.000</td>
+                    <td>NS</td>
+                </tr>
+            </tbody>
+        </table>
+        <p class="table-note">NS = Not Significant (p &gt; 0.05). Yates' correction applied.</p>
+
+        <p><strong>Age:</strong> Getting older or gaining more experience didn't magically make anyone better at the protocols either (all p &gt; 0.05, Table 6). Strangely enough, the youngest, greenest nurses (under 25) were vastly more confident in their own knowledge (95.0%) compared to the older staff in the 31-40 bracket (62.5%). It was practically right on the edge of being statistically proven (p = 0.088).</p>
+
+        <table>
+            <caption>Table 6: Association between age groups and key knowledge/practice responses using Pearson
+                Chi-Square test. Four age categories were compared across selected questionnaire items (n=103)</caption>
+            <thead>
+                <tr>
+                    <th>Item</th>
+                    <th>≤25</th>
+                    <th>26-30</th>
+                    <th>31-40</th>
+                    <th>&gt;40</th>
+                    <th>χ²</th>
+                    <th>p-value</th>
+                    <th>Sig</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Adequate HAI knowledge</td>
+                    <td>95.0%</td>
+                    <td>77.1%</td>
+                    <td>62.5%</td>
+                    <td>72.7%</td>
+                    <td>6.557</td>
+                    <td>0.088</td>
+                    <td>NS</td>
+                </tr>
+                <tr>
+                    <td>PPE available</td>
+                    <td>85.0%</td>
+                    <td>93.8%</td>
+                    <td>75.0%</td>
+                    <td>81.8%</td>
+                    <td>5.094</td>
+                    <td>0.165</td>
+                    <td>NS</td>
+                </tr>
+                <tr>
+                    <td>Masks during procedures</td>
+                    <td>95.0%</td>
+                    <td>85.4%</td>
+                    <td>75.0%</td>
+                    <td>90.9%</td>
+                    <td>3.836</td>
+                    <td>0.280</td>
+                    <td>NS</td>
+                </tr>
+                <tr>
+                    <td>Hand washing</td>
+                    <td>90.0%</td>
+                    <td>83.3%</td>
+                    <td>91.7%</td>
+                    <td>100%</td>
+                    <td>2.933</td>
+                    <td>0.402</td>
+                    <td>NS</td>
+                </tr>
+                <tr>
+                    <td>Nosocomial definition</td>
+                    <td>75.0%</td>
+                    <td>66.7%</td>
+                    <td>83.3%</td>
+                    <td>45.5%</td>
+                    <td>5.669</td>
+                    <td>0.129</td>
+                    <td>NS</td>
+                </tr>
+            </tbody>
+        </table>
+        <p class="table-note">NS = Not Significant (p &gt; 0.05).</p>
+
+        <p><strong>Qualification:</strong> This is where education actually made a undeniable dent. We found a hard statistical link (p = 0.007) between a nurse's degree and whether they truly believed IPC practices actually help patients. Every single BSN graduate (100%) bought into it, whereas 20% of the Post RN BSCN holders were apparently unconvinced (Table 7). We also saw a slight hint (p = 0.063) that higher degrees made nurses more likely to treat every patient and coworker as potentially infectious.</p>
+
+        <table>
+            <caption>Table 7: Association between professional qualification and key knowledge/practice responses using
+                Pearson Chi-Square test. Statistically significant results (p &le; 0.05) are highlighted. Diploma=29,
+                BSN=69, Post RN BSCN=5 (n=103)</caption>
+            <thead>
+                <tr>
+                    <th>Item</th>
+                    <th>Diploma</th>
+                    <th>BSN</th>
+                    <th>Post RN</th>
+                    <th>χ²</th>
+                    <th>p-value</th>
+                    <th>Sig</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>All HCWs potentially infectious</td>
+                    <td>82.8%</td>
+                    <td>64.2%</td>
+                    <td>100%</td>
+                    <td>5.532</td>
+                    <td>0.063</td>
+                    <td>NS</td>
+                </tr>
+                <tr>
+                    <td>Hand washing</td>
+                    <td>82.8%</td>
+                    <td>89.6%</td>
+                    <td>100%</td>
+                    <td>1.601</td>
+                    <td>0.449</td>
+                    <td>NS</td>
+                </tr>
+                <tr>
+                    <td>Nosocomial definition</td>
+                    <td>65.5%</td>
+                    <td>73.1%</td>
+                    <td>40.0%</td>
+                    <td>2.676</td>
+                    <td>0.262</td>
+                    <td>NS</td>
+                </tr>
+                <tr>
+                    <td>PPE available</td>
+                    <td>89.7%</td>
+                    <td>86.6%</td>
+                    <td>60.0%</td>
+                    <td>3.172</td>
+                    <td>0.205</td>
+                    <td>NS</td>
+                </tr>
+                <tr style="background:#eef5fa;">
+                    <td><strong>IPC improves outcomes</strong></td>
+                    <td>96.6%</td>
+                    <td>100%</td>
+                    <td>80.0%</td>
+                    <td><strong>10.040</strong></td>
+                    <td><strong>0.007</strong></td>
+                    <td><strong>*</strong></td>
+                </tr>
+            </tbody>
+        </table>
+        <p class="table-note">* Significant at p &lt; 0.05. NS = Not Significant.</p>
+
+        <!-- ══════════════════════════════════════════════ -->
+        <!--                DISCUSSION                     -->
+        <!-- ══════════════════════════════════════════════ -->
+        <h2 id="discussion">5. Discussion</h2>
+
+        <p>Our goal at the LUMHS tertiary center was simple: figure out what 103 nurses actually know about stopping infections, what they are currently doing on the floor, and what roadblocks they keep slamming into. What we found mirrors a frustrating national trend across Pakistan. The nurses are generally smart and aware, but massive gaps in specific knowledge combined with broken hospital systems force them into making risky compromises.</p>
+
+        <h3>5.1 The "Know-Do" Disconnect</h3>
+        <p>Overall, our nurses scored a 3.61/5 on theoretical knowledge. That 60.2% pass rate falls right in line with what Khowaja's team saw in Thatta and Kousar's team saw in Gujrat.<sup>[<a href="#ref1" title="Reference 1">1</a>,<a href="#ref3" title="Reference 3">3</a>]</sup> But averages hide the dangerous details. The fact that half of our nurses (50.5%) think plain, clean water destroys harmful microbes is a glaring blind spot. That misconception alone threatens every hand-wash and every scrub-down on the ward. We've seen this same dangerous myth pop up in studies from other developing nations, and it urgently needs addressing.<sup>[<a href="#ref6" title="Reference 6">6</a>,<a href="#ref10" title="Reference 10">10</a>]</sup></p>
+
+        <p>When you look at the practice scores (7.31/9), nearly three-quarters of the staff (73.8%) look like model employees on paper. Batool saw the exact same phenomenon in Quetta: high overall scores, but miserable compliance the second a procedure got complicated or messy.<sup>[<a href="#ref2" title="Reference 2">2</a>]</sup> For instance, Soomro noted that nurses who bragged about passing standard exams were the same ones skipping contact precautions half the time (56.7%).<sup>[<a href="#ref4" title="Reference 4">4</a>]</sup></p>
+
+        <p>The most terrifying statistic we pulled was the 30.1% who casually admitted to handling body fluids completely bare-handed because they couldn't find gloves. Think about the blood-borne diseases sitting in a tertiary ward—HBV, HCV, HIV. Baqar caught a similar horrible trend in Khairpur, watching 33.3% of the staff drop the ball on glove usage.<sup>[<a href="#ref5" title="Reference 5">5</a>]</sup> This isn't just poor protocol; it represents a terrifying daily occupational hazard for the nursing staff.</p>
+
+        <h3>5.2 Looking at the Institutional Blame</h3>
+        <p>The biggest win from this study is proving that the hospital itself is often the primary antagonist here. When nurses fail, it usually isn't malice or laziness. Over a quarter (28.2%) hadn't seen a training workshop in a year. Another 25.2% had literally no access to printed infection control guidelines. Both Khowaja and Baqar hinted at this resource scarcity, but we are seeing it explicitly stated.<sup>[<a href="#ref1" title="Reference 1">1</a>,<a href="#ref5" title="Reference 5">5</a>]</sup></p>
+
+        <p>There's an incredible irony in 13.6% of the staff claiming PPE is flat-out unavailable, while simultaneously claiming they always use it. It means that when the gloves are there, the nurses use them. When the gloves run out, they do what they have to do to save the patient. That makes infection control a supply-chain and management issue, not just an educational one.<sup>[<a href="#ref7" title="Reference 7">7</a>,<a href="#ref8" title="Reference 8">8</a>]</sup></p>
+
+        <h3>5.3 How Demographics Played Out</h3>
+        <p>Unlike earlier studies by Kousar or Baqar that heavily praised female nurses for having better hygiene habits, we found that gender didn't matter at all in our hospital (p &gt; 0.05).<sup>[<a href="#ref3" title="Reference 3">3</a>,<a href="#ref5" title="Reference 5">5</a>]</sup> LUMHS is a massive teaching center; training tends to be standardized regardless of who you are. Age didn't move the needle either, matching Batool's findings over in Quetta.<sup>[<a href="#ref2" title="Reference 2">2</a>]</sup></p>
+
+        <p>We did laugh a bit at how over-confident the youngest nurses were. Specifically, 95% of the nurses under 25 felt they knew everything there was to know, while only 62.5% of the older, seasoned staff felt that same confidence (p = 0.088). Unfortunately, that youthful confidence didn't magically translate into higher practice scores.</p>
+
+        <p>What did matter was the degree. There was a rock-solid link (p = 0.007) proving that nurses with a formal BSN totally bought into the idea that IPC saves lives. Oddly, 20% of the Post RN BSCN holders weren't convinced. While we didn't have many Post RN nurses in the sample (n=5) to draw massive conclusions, it's definitely a weird crack in the educational system that deserves a second look.</p>
+
+        <h3 id="disc-intl">5.4 The Global Context</h3>
+        <p>This massive divide between knowing the rules and actually following them isn't a unique Pakistani quirk. You see identical struggles pouring out of Nigeria,<sup>[<a href="#ref11" title="Reference 11">11</a>]</sup> Yemen,<sup>[<a href="#ref12" title="Reference 12">12</a>]</sup> Ethiopia,<sup>[<a href="#ref6" title="Reference 6">6</a>]</sup> and Bangladesh.<sup>[<a href="#ref13" title="Reference 13">13</a>]</sup> However, the sheer severity of the risks—like believing tap water sterilizes things, or grabbing blood tubes with bare hands—seems brutally magnified in under-funded hospitals. It proves a bitter truth: all the theoretical knowledge in the world collapses the second the resource cabinet goes empty.</p>
+
+        <h3 id="limitations">5.5 Limitations</h3>
+        <p>We openly admit this study has some flaws. It's a cross-sectional snapshot, so we can't definitively claim that a missing guideline manual *causes* a dirty hand—just that they exist at the same time. Furthermore, because we asked nurses to grade themselves, they likely lied to look slightly better (social desirability bias). Remember Baqar's study, where self-reported handwashing was high, but actual *observed* handwashing was less than 1%?<sup>[<a href="#ref5" title="Reference 5">5</a>]</sup> That same padding likely happened here. Also, convenience sampling means we only talked to the people with free time. Still, as a baseline for a major public tertiary center, the data points exactly to where the system is breaking down.</p>
+
+        <!-- ══════════════════════════════════════════════ -->
+        <!--               CONCLUSION                      -->
+        <!-- ══════════════════════════════════════════════ -->
+        <h2 id="conclusion">6. Conclusion</h2>
+
+        <p>At the end of the day, the nursing staff at the LUMHS tertiary center generally understand the fundamentals of infection control (scoring 60.2% on knowledge) and do their best to keep practices clean (73.8% good practice). But the cracks in the foundation are terrifying. Half of the staff think plain water is a sterilizer. Nearly a third are touching body fluids bare-handed. Over a quarter are missing out on crucial yearly training updates.</p>
+
+        <p>The blame here belongs heavily to the institution, not just the individuals. When nurses are forced to work without printed protocols, without regular refresher workshops, and occasionally without basic PPE like gloves, compliance becomes impossible. If hospital administration wants to drop infection rates, handing out another quiz won't work. They have to fix the supply chains and enforce the training schedules.</p>
+
+        <h3 id="recommendations">6.1 Recommendations</h3>
+        <ol>
+            <li><strong>Mandate Quarterly Training:</strong> Annual workshops clearly aren't reaching everyone (28.2% missed out). Shift to smaller, mandatory quarterly sessions on the ward itself.</li>
+            <li><strong>Print the Protocols:</strong> Waiting for someone to check a computer or find a binder doesn't work in an emergency. Pin laminated, heavy-duty guidelines to the wall at every single nursing station.</li>
+            <li><strong>Bust the Water Myth:</strong> Dedicated training modules need to aggressively attack the misconception that clean water destroys microbes (a deeply held myth by 50.5% of the staff).</li>
+            <li><strong>Audit the Supply Closets:</strong> Stop letting PPE cabinets run dry. There needs to be a digital or hard-count system that restocks gloves the second they hit a minimum threshold.</li>
+            <li><strong>Start Sneaky Observations:</strong> Quit relying on surveys where people grade their own hand-washing. Implement peer-to-peer secret auditing to find out what actually happens when nobody important is watching.</li>
+        </ol>
+
+        <!-- ══════════════════════════════════════════════ -->
+        <!--               REFERENCES                      -->
+        <!-- ══════════════════════════════════════════════ -->
+        <!-- ══════════════════════════════════════════════ -->
+        <!--               REFERENCES                      -->
+        <!-- ══════════════════════════════════════════════ -->
+
+        <div class="additional-sections">
+            <h3>Conflict of Interest</h3>
+            <p>The authors declare no conflicts of interest related to this study.</p>
+
+            <h3>Funding</h3>
+            <p>This research received no specific grant from any funding agency in the public, commercial, or
+                not-for-profit sectors.</p>
+
+            <h3>Author Contributions</h3>
+            <p><strong>Tasleem:</strong> Conceptualization, methodology, data collection, data analysis, and manuscript
+                writing. <br>
+                <strong>Gobind Rai:</strong> Supervision, critical review, and final approval of the
+                manuscript. All authors reviewed and approved the final version.
+            </p>
+
+            <h3>Data Availability</h3>
+            <p>The datasets generated and analyzed during this study are available from the corresponding author upon
+                reasonable request.</p>
+        </div>
+
+        <h2 id="references">References</h2>
+
+        <div class="references">
+            <ol>
+                <li id="ref1">Khowaja Z, Channar HB, Khowaja S, Channa S, Junejo Z. Knowledge and Practice of Infection
+                    Control
+                    Among Nurses at Liaquat Institute of Medical and Health Sciences Hospital, Thatta. <em>Journal of
+                        Health Rehabilitation Research.</em> 2024;4(3). doi:10.61919/jhrr.v4i3.1425</li>
+
+                <li id="ref2">Batool S, Kousar S, Chandio K, Memon KN, Wilson NR. Infection Control Practices Among
+                    Nurses Working
+                    at Tertiary Care Hospitals of Quetta, Pakistan. <em>RADS Journal of Pharmacy and Allied Health
+                        Sciences.</em> 2023;1(1):1-8.</li>
+
+                <li id="ref3">Kousar R, Afzal M, Parveen K, Hussain M, Gilani SA. Awareness and Practices of Nurses
+                    Related to
+                    Infection Control and Prevention at Public Sector, Pakistan. <em>Journal of Global Biosciences.</em>
+                    2020;9(10):8025–8034.</li>
+
+                <li id="ref4">Soomro A, Junejo Z, Soomro P, Soomro P, Bashir M. Knowledge and Practice of Standard
+                    Infection
+                    Control Precautions among Staff Nurses at Isra University Hospital, Hyderabad. <em>Pakistan Journal
+                        of Multidisciplinary Innovation.</em> 2024;3(2):1-8.</li>
+
+                <li id="ref5">Baqar M, Kumar R, Khushk IA, Noonari AA, Ahmed F. Hospital Infection Control Practices
+                    among Nursing
+                    Staff Working at Tertiary Care Hospital of Khairpur, Sindh. <em>Journal of Liaquat University of
+                        Medical and Health Sciences.</em> 2018;17(02):117-122. doi:10.22442/jlumhs.181720563</li>
+
+                <li id="ref6">Geberemariyam BS, Donka GM, Wordofa B. Assessment of knowledge and practices of healthcare
+                    workers
+                    towards infection prevention and associated factors in healthcare facilities of West Arsi District,
+                    Southeast Ethiopia. <em>Archives of Public Health.</em> 2018;76(1):69. doi:10.1186/s13690-018-0314-0
+                </li>
+
+                <li id="ref7">Haque M, Sartelli M, McKimm J, Bakar MA. Health care-associated infections–an overview.
+                    <em>Infection and Drug Resistance.</em> 2018;11:2321-2333.
+                </li>
+
+                <li id="ref8">Stewart S, Robertson C, Pan J, et al. Impact of healthcare-associated infection on length
+                    of stay.
+                    <em>Journal of Hospital Infection.</em> 2021;114:23-31.
+                </li>
+
+                <li id="ref9">World Health Organization. WHO Guidelines on Hand Hygiene in Health Care. Geneva: WHO;
+                    2009.</li>
+
+                <li id="ref10">O Nour M, Mohamed AM, Al Bishi HA, Amir AA. Knowledge, attitude and practices of
+                    healthcare
+                    providers towards MERS-CoV infection at Makkah hospitals, KSA. <em>International Research Journal of
+                        Medicine and Medical Sciences.</em> 2017;5(4):76-86.</li>
+
+                <li id="ref11">Iliyasu G, Dayyab FM, Habib ZG, et al. Knowledge and practices of infection control among
+                    healthcare
+                    workers in a tertiary referral center in North-Western Nigeria. <em>Annals of African Medicine.</em>
+                    2016;15(1):34-40.</li>
+
+                <li id="ref12">Alrubaiee G, Baharom A, Shahar HK, Daud SM, Basaleem HO. Knowledge and practices of
+                    nurses regarding
+                    nosocomial infection control measures in private hospitals in Sana'a City, Yemen. <em>Safety in
+                        Health.</em> 2017;3(1):1-6.</li>
+
+                <li id="ref13">Shahida SM, Islam A, Dey BR, Islam F, Venkatesh K, Goodman A. Hospital Acquired
+                    Infections in Low
+                    and Middle Income Countries: Root Cause Analysis and the Development of Infection Control Practices
+                    in Bangladesh. <em>Open Journal of Obstetrics and Gynecology.</em> 2016;6(1):28-39.</li>
+
+                <li id="ref14">Gomarverdi S, Khatiban M, Bikmoradi A, Soltanian AR. Effects of a multi-component
+                    educational
+                    intervention on nurses' knowledge and adherence to standard precautions in intensive care units.
+                    <em>Journal of Infection Prevention.</em> 2019;20(2):83-90.
+                </li>
+
+                <li id="ref15">Alnajrani AH. Infection Control Across Healthcare Disciplines: Radiology, Nursing,
+                    Internal
+                    Medicine, Laboratory, and Optic Technicians. <em>Analysis and Metaphysics.</em> 2024;23:52-68.</li>
+            </ol>
+        </div>
+
+        <!-- ══════════════════════════════════════════════ -->
+        <!--                FOOTER                         -->
+        <!-- ══════════════════════════════════════════════ -->
+        <div class="meta-bar">
+            <span>Cross-sectional study | LUMHS Jamshoro &amp; Hyderabad</span>
+            <span>January – February 2026</span>
+            <span>n = 103 | 15-item questionnaire</span>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
